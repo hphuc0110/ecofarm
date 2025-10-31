@@ -5,7 +5,8 @@ import ProductSingle from '../product-single/product-single';
 
 
 const AllProductArea = () => {
-  const products = [...product_data];
+  const products = [...product_data]
+    .filter((p) => p.quantity > 0 && p.status !== "out-of-stock");
   return (
     <>
     <section className="product-area whight-product pt-75 pb-75 fix">

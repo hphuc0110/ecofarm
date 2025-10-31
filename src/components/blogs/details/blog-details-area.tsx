@@ -36,16 +36,16 @@ const BlogDetailsArea = ({blog}: IProps) => {
                    </div>
                    <h2 className="tp-blog-details__title mb-25">{blog.title}</h2>
                    <p>
-                      These are the people who make your life easier. Large tiles were arranged on the counter top plate near the window of the living room, they were connected to the kitchen. The perfect way to enjoy brewing tea on low hanging fruit to identify. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                      Đây là những sản phẩm giúp cuộc sống của bạn trở nên dễ dàng hơn. Thực phẩm tươi ngon được sắp xếp gọn gàng trên kệ bếp gần cửa sổ phòng khách, tạo không gian thoáng đãng cho căn bếp. Cách hoàn hảo để tận hưởng cuộc sống lành mạnh với những thực phẩm tươi ngon nhất.
                    </p>
                    <p>
-                      Large tiles were arranged on the counter top plate near the window of the living room, they were connected to the kitchen counter through the opening in the existing building wall. For me, the most important part of improving at photography has been sharing it. Sign up for an Exposure account, or post regularly to Tumblr, or both. Tell people you’re trying to get better at photography. 
+                      Thực phẩm tươi ngon được sắp xếp cẩn thận trên kệ, tạo nên một không gian bếp hiện đại và tiện nghi. Đối với chúng tôi, phần quan trọng nhất của việc cải thiện cuộc sống là chia sẻ những kiến thức về dinh dưỡng và sức khỏe. Hãy theo dõi chúng tôi để nhận được những thông tin hữu ích về thực phẩm và lối sống lành mạnh.
                    </p>
                    <div className="tp-blog-details__quation pt-15 pb-40 text-center">
-                      <i>“  The disk at the bottom of the bowl can be turned counterclockwise to <br/> drain water when washing vegetables and it can be turned.  ” </i>
+                      <i>"  Đĩa ở đáy bát có thể được xoay ngược chiều kim đồng hồ để <br/> thoát nước khi rửa rau củ và có thể được xoay lại.  " </i>
                    </div>
                    <p>
-                      Form is an armless modern with a minimalistic expression. With a simple and contemporary design form Foody has a soft and welcoming silhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown an series of small, glass pendant lamps, originally designed for the restaurant. 
+                      Thực phẩm hữu cơ mang đến một cảm giác tươi mới và tự nhiên. Với thiết kế đơn giản và hiện đại, sản phẩm của chúng tôi có vẻ ngoài mềm mại và thân thiện, mang lại cảm giác gần gũi như từ vườn nhà. Mỗi sản phẩm đều được chọn lọc kỹ càng, đảm bảo chất lượng cao nhất. Chúng tôi cam kết mang đến cho bạn những sản phẩm tươi ngon nhất từ trang trại đến bàn ăn. 
                    </p>
                 </div>
                 <div className="tp-blog-details__img">
@@ -69,10 +69,10 @@ const BlogDetailsArea = ({blog}: IProps) => {
                 </div>
                 <div className="tp-blog-details__content">
                    <p>
-                      Staying locked up in four walls have restricted our thinking. I feel like our limited thinking echoes through this wall. We are so used to schedules and predictable life that we have successfully suppressed our creative side. When you step out of these four walls on a peaceful morning, you realize how much nature has to offer to you. Its boundless. Your thoughts, worries, deadlines won’t resonate here.
+                      Việc bị nhốt trong bốn bức tường đã hạn chế suy nghĩ của chúng ta. Tôi cảm thấy như suy nghĩ hạn hẹp của chúng ta vang vọng qua bức tường này. Chúng ta quá quen với lịch trình và cuộc sống dự đoán được đến nỗi chúng ta đã thành công trong việc kìm nén khía cạnh sáng tạo của mình. Khi bạn bước ra khỏi bốn bức tường này vào một buổi sáng yên bình, bạn sẽ nhận ra thiên nhiên có bao nhiêu điều để mang lại cho bạn. Nó vô tận. Những suy nghĩ, lo lắng, thời hạn của bạn sẽ không cộng hưởng ở đây.
                    </p>
                    <p>
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione sequi nesciunt. They’ll come on photo walks with you.
+                      Thực phẩm tươi ngon từ thiên nhiên là món quà tuyệt vời nhất. Chúng tôi tin rằng mỗi bữa ăn nên được chuẩn bị với tình yêu và sự chăm chút. Từ những nguyên liệu tươi ngon nhất đến cách chế biến cẩn thận, mỗi khía cạnh đều quan trọng. Hãy để chúng tôi đồng hành cùng bạn trên hành trình tìm kiếm một lối sống lành mạnh và hạnh phúc hơn.
                    </p>
                 </div>
                 <div className="postbox__tag-border mb-45">
@@ -80,16 +80,16 @@ const BlogDetailsArea = ({blog}: IProps) => {
                       <div className="col-xl-7 col-lg-6 col-md-12">
                          <div className="postbox__tag">
                             <div className="postbox__tag-list tagcloud">
-                               <span>Tagged: </span>
-                               <Link href="/blog">Furniture</Link>
-                               <Link href="/blog">Table</Link>
-                               <Link href="/blog">Fashion</Link>
+                               <span>Thẻ: </span>
+                               <Link href="/blog">Thực phẩm</Link>
+                               <Link href="/blog">Rau củ</Link>
+                               <Link href="/blog">Lối sống</Link>
                             </div>
                          </div>
                       </div>
                       <div className="col-xl-5 col-lg-6 col-md-12">
                          <div className="postbox__social-tag">
-                            <span>share:</span>
+                            <span>Chia sẻ:</span>
                             <a className="blog-d-lnkd" href="#"><i className="fab fa-linkedin-in"></i></a>
                             <a className="blog-d-pin" href="#"><i className="fab fa-pinterest-p"></i></a>
                             <a className="blog-d-fb" href="#"><i className="fab fa-facebook-f"></i></a>
@@ -102,14 +102,14 @@ const BlogDetailsArea = ({blog}: IProps) => {
                    <div className="row">
                       <div className="col-lg-6 col-md-6">
                          <div className="tp-blog-details__post-item mb-30">
-                            <span><i className="far fa-chevron-left"></i> Previous Post</span>
-                            <a href="#">Popular Reasons You Must Drinks <br/> Juice Everyday</a>
+                            <span><i className="far fa-chevron-left"></i> Bài Trước</span>
+                            <a href="#">Lý Do Phổ Biến Bạn Nên Uống <br/> Nước Ép Mỗi Ngày</a>
                          </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                          <div className="tp-blog-details__post-item text-end mb-30">
-                            <span>Next Post <i className="far fa-chevron-right"></i></span>
-                            <a href="#">Transition Your Favorite Looks into <br/> Fall France </a>
+                            <span>Bài Tiếp <i className="far fa-chevron-right"></i></span>
+                            <a href="#">Chuyển Đổi Phong Cách Yêu Thích Của Bạn <br/> Sang Thu Pháp </a>
                          </div>
                       </div>
                    </div>
@@ -119,20 +119,20 @@ const BlogDetailsArea = ({blog}: IProps) => {
                       <Image src={author} alt="author"/>
                    </div>
                    <div className="tp-blog-details__author-text">
-                      <h3 className="tp-blog-details__author-title">MICHAEL ANTHONY</h3>
-                      <p>The tiles are highly resistant to water and dirt and can be cleaned, so they are compatible with the cultivation of plants and cooking and the functions.</p>
-                      <a href="#" className="author-btn">All Author Posts</a>
+                      <h3 className="tp-blog-details__author-title">QUẢN TRỊ VIÊN</h3>
+                      <p>Thực phẩm có khả năng chống nước và bụi bẩn cao, dễ dàng làm sạch, nên chúng phù hợp với việc trồng cây và nấu ăn và các chức năng khác.</p>
+                      <a href="#" className="author-btn">Tất Cả Bài Viết Của Tác Giả</a>
                    </div>
                 </div>
                 <div className="postbox__comment mb-65">
-                   <h3 className="postbox__comment-title mb-35">LEAVE A COMMENTs</h3>
+                   <h3 className="postbox__comment-title mb-35">ĐỂ LẠI BÌNH LUẬN</h3>
                    {/* blog details comment */}
                    <BlogDetailsComments/>
                    {/* blog details comment */}
                 </div>
                 <div className="tpreview__form postbox__form">
-                   <h4 className="tpreview__form-title mb-10">LEAVE A REPLY </h4>
-                   <p>Your email address will not be published. Required fields are marked *</p>
+                   <h4 className="tpreview__form-title mb-10">ĐỂ LẠI PHẢN HỒI </h4>
+                   <p>Địa chỉ email của bạn sẽ không được công bố. Các trường bắt buộc được đánh dấu *</p>
                    {/* blog details form */}
                    <BlogDetailsForm/>
                    {/* blog details form */}

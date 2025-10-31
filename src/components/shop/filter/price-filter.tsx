@@ -3,7 +3,7 @@ import React from "react";
 import { set_price_value } from "@/redux/features/filter";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import InputRange from "@/components/ui/input-range";
-import { maxPrice } from "@/utils/utils";
+import { maxPrice, formatPriceRange } from "@/utils/utils";
 
 const PriceFilter = () => {
   const { priceValue } = useAppSelector((state) => state.filter);
@@ -28,7 +28,7 @@ const PriceFilter = () => {
             />
           </div>
           <div className="price-filter mt-10">
-            <span>${priceValue[0]} - ${priceValue[1]}</span>
+            <span>{formatPriceRange(priceValue[0])} - {formatPriceRange(priceValue[1])} VNĐ</span>
           </div>
         </div>
       </div>

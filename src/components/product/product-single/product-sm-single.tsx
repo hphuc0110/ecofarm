@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Rating } from "react-simple-star-rating";
 import { IProductData } from "@/types/product-d-t";
-import { averageRating, discountPercentage } from "@/utils/utils";
+import { averageRating, discountPercentage, formatPriceVND } from "@/utils/utils";
 
 // prop type
 type IProps = {
@@ -36,8 +36,8 @@ const ProductSmSingle = ({ product }: IProps) => {
          <Rating allowFraction size={16} initialValue={averageRating(product.reviews)} readonly={true} />
         </div>
         <div className="tpproduct__price">
-          <span>${product.sale_price ? product.sale_price : product.price} </span>
-          {product.sale_price && <del>${product.price}</del>}
+          <span>{formatPriceVND(product.sale_price || product.price)} </span>
+          {product.sale_price && <del>{formatPriceVND(product.price)}</del>}
         </div>
       </div>
     </div>

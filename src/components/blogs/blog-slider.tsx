@@ -51,7 +51,7 @@ const BlogSlider = () => {
                           <h4 className="tpblog__single-title mb-20">
                             <Link href={`/blog-details/${blog.id}`} dangerouslySetInnerHTML={{ __html: blog.title }}></Link>
                           </h4>
-                          <Link href={`/blog-details/${blog.id}`}>Continue reading</Link>
+                          <Link href={`/blog-details/${blog.id}`}>Đọc tiếp</Link>
                       </div>
                     </div>
                 </SwiperSlide>

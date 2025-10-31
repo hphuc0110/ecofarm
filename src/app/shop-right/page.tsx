@@ -7,7 +7,7 @@ import ShopArea from "@/components/shop/shop-area";
 import Footer from "@/layouts/footer/footer";
 
 export const metadata: Metadata = {
-  title: "Shop Right Sidebar - Orfarm",
+  title: "Shop Right Sidebar - Ecofarm",
 };
 
 export default function ShopRightSidebarPage() {

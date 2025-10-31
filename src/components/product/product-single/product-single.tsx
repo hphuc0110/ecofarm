@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Rating } from "react-simple-star-rating";
 import { IProductData } from "@/types/product-d-t";
-import { averageRating, discountPercentage, isHot } from "@/utils/utils";
+import { averageRating, discountPercentage, isHot, formatPriceVND } from "@/utils/utils";
 import CountdownTimer from "@/components/common/countdown-timer";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
@@ -118,8 +118,8 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
         <div
           className={`tpproduct__price ${offer_style ? "tpproduct__big-price" : ""} ${price_space}`}
         >
-          <span>${sale_price ? sale_price.toFixed(2) : price.toFixed(2)} </span>
-          {sale_price && <del>${price.toFixed(2)}</del>}
+          <span>{formatPriceVND(sale_price || price)} </span>
+          {sale_price && <del>{formatPriceVND(price)}</del>}
         </div>
         {offer_style && (
           <>
@@ -158,7 +158,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
               onClick={() => dispatch(add_cart_product(product))}
               className="tp-btn-2 pointer"
             >
-              Add to Cart
+              Đặt hàng
             </a>
           )}
         </div>

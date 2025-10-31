@@ -7,7 +7,7 @@ import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-2";
 import CompareArea from "@/components/compare/compare-area";
 
 export const metadata: Metadata = {
-  title: "Compare - Orfarm",
+  title: "Compare - Ecofarm",
 };
 
 export default function ComparePage() {

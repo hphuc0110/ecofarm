@@ -21,12 +21,12 @@ const LocationAreaTwo = () => {
                     <a href="tel:012345678">Phone: (+100) 123 456 7890</a>
                   </li>
                   <li>
-                    <a href="mailto:orfarm@google.com">
-                      Email: Orfarm@google.com
+                    <a href="mailto:Ecofarm@google.com">
+                      Email: Ecofarm@google.com
                     </a>
                   </li>
                   <li>
-                    <a href="#">Website: http://www.orfarm.com/</a>
+                    <a href="#">Website: http://www.Ecofarm.com/</a>
                   </li>
                   <li>
                     Description: We have more than 100 stores all over the

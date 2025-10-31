@@ -68,8 +68,8 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
           <div className="row">
             <div className="col-lg-12 text-center">
                 <div className="tpsection mb-20">
-                  <h4 className="tpsection__sub-title">~ Special Products ~</h4>
-                  <h4 className="tpsection__title">Weekly Food Offers</h4>
+                  <h4 className="tpsection__sub-title">~ Sản phẩm đặc biệt ~</h4>
+                  <h4 className="tpsection__title">Sản phẩm đặc biệt</h4>
                 </div>
             </div>
           </div>

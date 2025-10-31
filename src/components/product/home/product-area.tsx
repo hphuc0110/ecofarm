@@ -39,7 +39,9 @@ const slider_setting = {
 }
 
 const ProductArea = () => {
-   const products = [...product_data].slice(-10);
+   const products = [...product_data]
+     .filter((p) => p.quantity > 0 && p.status !== "out-of-stock")
+     .slice(-10);
   return (
     <>
      <section className="product-area grey-bg pb-0">
@@ -48,8 +50,8 @@ const ProductArea = () => {
                   <div className="col-lg-12 text-center">
                      <div className="tpsection mb-35">
                         <h4 className="tpsection__sub-title">~ Special Products ~</h4>
-                        <h4 className="tpsection__title">Weekly Food Offers</h4>
-                        <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p>
+                        <h4 className="tpsection__title">Sản phẩm đặc biệt</h4>
+                        <p>Sản phẩm đặc biệt được chọn lọc từ những sản phẩm tốt nhất trên thị trường.</p>
                      </div>
                   </div>
                </div>

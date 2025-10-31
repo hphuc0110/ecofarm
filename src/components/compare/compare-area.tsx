@@ -7,7 +7,7 @@ import { IProductData } from '@/types/product-d-t';
 import { useAppDispatch, useAppSelector } from '@/redux/hook';
 import { getCompareProducts, remove_compare_product } from '@/redux/features/compare';
 import { add_cart_product } from '@/redux/features/cart';
-import { averageRating } from '@/utils/utils';
+import { averageRating, formatPriceVND } from '@/utils/utils';
 
 const CompareArea = () => {
   const {compare_products} = useAppSelector((state) => state.compare);
@@ -69,16 +69,20 @@ const CompareArea = () => {
                       {compare_products.map((item, index) => (
                         <td key={index}>
                           <div className="tp-compare-price">
-                            <span>${item.sale_price?.toFixed()}</span>
-                            {item.sale_price && (
-                              <span className="old-price">${item.price.toFixed(2)}</span>
+                            {item.sale_price ? (
+                              <>
+                                <span>{formatPriceVND(item.sale_price)}</span>
+                                <span className="old-price">{formatPriceVND(item.price)}</span>
+                              </>
+                            ) : (
+                              <span>{formatPriceVND(item.price)}</span>
                             )}
                           </div>
                         </td>
                       ))}
                     </tr>
                     <tr>
-                      <th>Add to cart</th>
+                      <th>Đặt hàng</th>
                       {compare_products.map((item, index) => (
                         <td key={index}>
                           <div className="tp-compare-add-to-cart">
@@ -86,7 +90,7 @@ const CompareArea = () => {
                               onClick={() => dispatch(add_cart_product(item))}
                               className="tp-btn-2"
                             >
-                              Add to Cart
+                              Đặt hàng
                             </a>
                           </div>
                         </td>

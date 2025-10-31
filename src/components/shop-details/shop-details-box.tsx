@@ -4,6 +4,7 @@ import Image from "next/image";
 import { IProductData } from "@/types/product-d-t";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import { add_cart_product, decrement, increment } from "@/redux/features/cart";
+import { formatPriceVND } from "@/utils/utils";
 
 // prop type
 type IProps = {
@@ -153,7 +154,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                     </span>
                   </div>
                   <div className="product__details-btn" onClick={() => dispatch(add_cart_product(product))}>
-                    <a className="pointer">add to cart</a>
+                    <a className="pointer">Đặt hàng</a>
                   </div>
                 </div>
                 <ul className="product__details-check">

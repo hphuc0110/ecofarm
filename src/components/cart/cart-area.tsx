@@ -25,7 +25,7 @@ const CartArea = () => {
           {cart_products.length === 0 &&
                 <div className='text-center pt-100'>
                   <h3>Your cart is empty</h3>
-                  <Link href="/shop" className="tp-btn-2 mt-10">Return to shop</Link>
+                  <Link href="/shop" className="tp-btn-2 mt-10">Quay lại cửa hàng</Link>
                 </div>
               }
               {cart_products.length > 0 && 
@@ -54,10 +54,10 @@ const CartArea = () => {
                             <div className="coupon-all">
                               <div className="coupon">
                                   <input id="coupon_code" className="input-text" name="coupon_code" value=""  placeholder="Coupon code" type="text"/>
-                                  <button className="tp-btn tp-color-btn banner-animation" name="apply_coupon" type="submit">Apply Coupon</button>
+                                  <button className="tp-btn tp-color-btn banner-animation" name="apply_coupon" type="submit">Áp dụng mã giảm giá</button>
                               </div>
                               <div className="coupon2">
-                                  <button onClick={() => dispatch(clearCart())} className="tp-btn tp-color-btn banner-animation" name="update_cart" type="button">Clear cart</button>
+                                  <button onClick={() => dispatch(clearCart())} className="tp-btn tp-color-btn banner-animation" name="update_cart" type="button">Xóa giỏ hàng</button>
                               </div>
                             </div>
                       </div>
@@ -65,12 +65,12 @@ const CartArea = () => {
                   <div className="row justify-content-end">
                       <div className="col-md-5 ">
                             <div className="cart-page-total">
-                              <h2>Cart totals</h2>
-                              <ul className="mb-20">
-                                  <li>Subtotal <span>${total.toFixed(2)}</span></li>
-                                  <li>Total <span>${total.toFixed(2)}</span></li>
-                              </ul>
-                              <Link href="/checkout" className="tp-btn tp-color-btn banner-animation">Proceed to Checkout</Link>
+                              <h2>Tổng tiền</h2>
+                              {/* <ul className="mb-20">
+                                  <li>Tổng phụ <span>{formatPriceVND(total)}</span></li>
+                                  <li>Tổng cộng <span>{formatPriceVND(total)}</span></li>
+                              </ul> */}
+                              <Link href="/checkout" className="tp-btn tp-color-btn banner-animation">Tiếp tục thanh toán</Link>
                             </div>
                       </div>
                   </div>

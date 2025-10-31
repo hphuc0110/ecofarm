@@ -38,7 +38,7 @@ const BlogSingle = ({ blog, bottom_show,style_2 }: Props) => {
             <p>{blog.desc}...</p>
             <div className="tpblog__details">
               <Link href={`/blog-details/${blog.id}`}>
-                Continue reading <i className="icon-chevrons-right"></i>{" "}
+                Đọc tiếp <i className="icon-chevrons-right"></i>{" "}
               </Link>
             </div>
           </>

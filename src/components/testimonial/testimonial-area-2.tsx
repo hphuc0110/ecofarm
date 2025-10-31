@@ -48,38 +48,38 @@ export const testimonial_data = [
   {
     id: 1,
     user: "/assets/img/testimonial/test-avata-1.png",
-    desc: `"Also like the fact that I can pick my staples in the brown <br>
-    paper packs and glass containers at the zero waste section, with an <br>
-    idea to reduce plastic and also more convenient."`,
+    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
+    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
+    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
     name: "Algistino Lionel",
-    position: "Web Designer at Blueskytechco",
+    position: "Nhà thiết kế Web",
   },
   {
     id: 2,
     user: "/assets/img/testimonial/test-avata-2.png",
-    desc: `"Also like the fact that I can pick my staples in the brown <br>
-    paper packs and glass containers at the zero waste section, with an <br>
-    idea to reduce plastic and also more convenient."`,
+    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
+    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
+    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
     name: "Jackson Roben",
-    position: "Web Developer at Blueskytechco",
+    position: "Lập trình viên Web",
   },
   {
     id: 3,
     user: "/assets/img/testimonial/test-avata-3.png",
-    desc: `"Also like the fact that I can pick my staples in the brown <br>
-    paper packs and glass containers at the zero waste section, with an <br>
-    idea to reduce plastic and also more convenient."`,
+    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
+    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
+    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
     name: "Lionel",
-    position: "UI/UX Designer at Blueskytechco",
+    position: "Nhà thiết kế UI/UX",
   },
   {
     id: 4,
     user: "/assets/img/testimonial/test-avata-2.png",
-    desc: `"Also like the fact that I can pick my staples in the brown <br>
-    paper packs and glass containers at the zero waste section, with an <br>
-    idea to reduce plastic and also more convenient."`,
+    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
+    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
+    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
     name: "Mark Roben",
-    position: "App Developer at Blueskytechco",
+    position: "Lập trình viên Ứng dụng",
   },
 ];
 
@@ -88,13 +88,27 @@ const TestimonialAreaTwo = () => {
     <>
       <section
         className="testimonial-area tptestimonial__bg pt-115 pb-120 p-relative"
-        style={{backgroundImage: "url(/assets/img/testimonial/testimonial-bg-1.jpg)"}}
+        style={{
+          backgroundImage: "url(/assets/img/testimonial/testimonial-bg-1.jpg)",
+        }}
       >
         <div className="container">
           <div className="testimonial__shape p-relative d-none d-md-block">
-            <Image src={shape_1} alt="shape" className="testimonial__shape-one"/>
-            <Image src={shape_2} alt="shape" className="testimonial__shape-two"/>
-            <Image src={shape_3} alt="shape" className="testimonial__shape-three"/>
+            <Image
+              src={shape_1}
+              alt="shape"
+              className="testimonial__shape-one"
+            />
+            <Image
+              src={shape_2}
+              alt="shape"
+              className="testimonial__shape-two"
+            />
+            <Image
+              src={shape_3}
+              alt="shape"
+              className="testimonial__shape-three"
+            />
           </div>
           <Swiper
             {...slider_setting}

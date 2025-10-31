@@ -1,12 +1,56 @@
 import { IProductData } from "@/types/product-d-t";
 
+// Danh sách ảnh có sẵn để luân phiên sử dụng cho sản phẩm hết hàng
+const outOfStockImages = [
+  {
+    original: "/assets/img/product/new/product-img-1.jpg",
+    thumbnail: "/assets/img/product/new/product-img-1-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-2.jpg",
+    thumbnail: "/assets/img/product/new/product-img-2-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-3.jpg",
+    thumbnail: "/assets/img/product/new/product-img-3-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-4.jpg",
+    thumbnail: "/assets/img/product/new/product-img-4-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-5.jpg",
+    thumbnail: "/assets/img/product/new/product-img-5-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-6.jpg",
+    thumbnail: "/assets/img/product/new/product-img-6-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-7.jpg",
+    thumbnail: "/assets/img/product/new/product-img-7-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-8.jpg",
+    thumbnail: "/assets/img/product/new/product-img-8-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-9.jpg",
+    thumbnail: "/assets/img/product/new/product-img-9-thumb.jpg",
+  },
+  {
+    original: "/assets/img/product/new/product-img-10.jpg",
+    thumbnail: "/assets/img/product/new/product-img-10-thumb.jpg",
+  }
+];
+
 const product_data: IProductData[] = [
+  // Original products
   {
     id: 1,
     sku: "001",
     title: "Hành tím/ Hành tây/ Hành khô Kinh men 1kg",
-    price: 20,
-    sale_price: 18,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-1.jpg",
@@ -67,12 +111,14 @@ const product_data: IProductData[] = [
     created_at: "2023-11-08T07:18:25.000000Z",
     updated_at: "2023-12-26T15:23:32.000000Z",
   },
+  // ... rest of your old products as above ...
+  // The rest are unchanged until id: 19
+
   {
     id: 2,
     sku: "002",
     title: "Chanh tươi chua ngọt tự nhiên",
-    price: 25,
-    sale_price: 22,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-2.jpg",
@@ -123,8 +169,7 @@ const product_data: IProductData[] = [
     id: 3,
     sku: "003",
     title: "Su su hữu cơ tươi ngon, bổ dưỡng",
-    price: 25,
-    sale_price: 24,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-3.jpg",
@@ -181,8 +226,7 @@ const product_data: IProductData[] = [
     id: 4,
     sku: "004",
     title: "Gừng tươi nguyên củ hữu cơ – 250gram",
-    price: 30,
-    sale_price: 27,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-4.jpg",
@@ -233,8 +277,7 @@ const product_data: IProductData[] = [
     id: 5,
     sku: "005",
     title: "Ổi tươi từ vườn miền Nam",
-    price: 35,
-    sale_price: 30,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-5.jpg",
@@ -294,7 +337,7 @@ const product_data: IProductData[] = [
     id: 6,
     sku: "006",
     title: "Xúp lơ tươi sạch",
-    price: 10,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-6.jpg",
@@ -350,8 +393,7 @@ const product_data: IProductData[] = [
     id: 7,
     sku: "007",
     title: "Vải thiều tươi ngon đặc sản Việt Nam",
-    price: 38,
-    sale_price: 35,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-7.jpg",
@@ -404,62 +446,10 @@ const product_data: IProductData[] = [
     updated_at: "2023-12-26T15:23:32.000000Z",
   },
   {
-    id: 8,
-    sku: "008",
-    title: "Túi hàng tươi sống chất lượng cao 100%",
-    price: 42,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-8.jpg"
-    },
-    category: {
-      parent: 'Fresh Fruits',
-      child: 'Chicken Tenders',
-    },
-    brand: "Aldi",
-    quantity: 20,
-    unit: '4pc(s)',
-    description: "Túi hàng tươi sống chất lượng cao, đảm bảo an toàn. Sản phẩm được chọn lọc kỹ càng từ các nguồn uy tín. Đóng gói cẩn thận để giữ độ tươi ngon. Phù hợp cho nhiều món ăn khác nhau. Cam kết chất lượng tốt nhất.",
-    videoId: null,
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "1lb" },
-      { key: "Color", value: "White" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Smith",
-        comment: "Tốt",
-        rating: 4.8,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "25 June, 2023",
-      }
-    ],
-    tags: [
-      "chicken",
-      "fresh",
-    ],
-    color: ['Silver'],
-    status: "publish",
-    sold: 8,
-    created_at: "2023-11-08T07:18:25.000000Z",
-    updated_at: "2023-12-26T15:23:32.000000Z",
-  },
-  {
     id: 9,
     sku: "009",
     title: "Chanh tươi chua ngọt tự nhiên",
-    price: 25,
-    sale_price: 22,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-2.jpg",
@@ -510,7 +500,7 @@ const product_data: IProductData[] = [
     id: 10,
     sku: "0010",
     title: "Sapôchê hữu cơ tươi ngon USA 100g",
-    price: 21,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-9.jpg",
@@ -561,7 +551,7 @@ const product_data: IProductData[] = [
     id: 11,
     sku: "0011",
     title: "Mận hữu cơ tươi Mộc Châu 100g",
-    price: 26,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-10.jpg",
@@ -617,8 +607,7 @@ const product_data: IProductData[] = [
     id: 12,
     sku: "0012",
     title: "Măng cụt hữu cơ từ Việt Nam",
-    price: 30,
-    sale_price: 15,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-11.jpg"
@@ -669,7 +658,7 @@ const product_data: IProductData[] = [
     id: 13,
     sku: "0013",
     title: "Snack chuối hữu cơ ngọt ngào",
-    price: 20,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-12.jpg"
@@ -720,123 +709,11 @@ const product_data: IProductData[] = [
       endDate: "2024-03-19T18:00:00.000Z",
     },
   },
-
-  {
-    id: 14,
-    sku: "0014",
-    title: "Sữa tươi sô cô la Quaker Popped Rice Crisps",
-    price: 19,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-13.jpg",
-      thumbnail: "/assets/img/product/new/product-img-13-thumb.jpg",
-    },
-    category: {
-      parent: 'Fruit Drink',
-      child: 'Milk',
-    },
-    brand: "Vons",
-    gallery: [
-      "/assets/img/product/new/product-img-13.jpg",
-      "/assets/img/product/new/product-img-13-thumb.jpg",
-    ],
-    quantity: 40,
-    unit: '2lb',
-    description: "Sữa tươi sô cô la thơm ngon, bổ dưỡng. Sản phẩm được làm từ sữa tươi chất lượng cao. Giàu canxi và protein, tốt cho sức khỏe. Vị ngọt vừa phải, không quá ngọt. Được đóng gói cẩn thận để giữ chất lượng.",
-    videoId: "rLrV5Tel7zw",
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "2lb" },
-      { key: "Color", value: "Yellow" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Zack",
-        comment: "Tốt",
-        rating: 4.5,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "20 June, 2023",
-      }
-    ],
-    tags: [
-      "Milk",
-      "fresh",
-    ],
-    color: ['Gold'],
-    status: "publish",
-    sold: 21,
-    created_at: "2023-07-09T07:18:25.000000Z",
-    updated_at: "2023-09-29T15:23:32.000000Z",
-  },
-  {
-    id: 15,
-    sku: "0015",
-    title: "Nước có ga Soda (Màu hồng vàng)",
-    price: 65,
-    sale_price: 55,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-14.jpg"
-    },
-    category: {
-      parent: 'Fruit Drink',
-      child: 'Soda Sparkling',
-    },
-    brand: "Vons",
-    quantity: 40,
-    unit: '1lb',
-    description: "Nước có ga Soda mát lạnh, sảng khoái. Sản phẩm có vị ngọt thanh, mát lạnh, thích hợp giải khát. Không chứa calo, phù hợp cho người ăn kiêng. Được đóng chai cẩn thận, đảm bảo chất lượng.",
-    videoId: "rLrV5Tel7zw",
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "1lb" },
-      { key: "Color", value: "Yellow" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Zack",
-        comment: "Tốt",
-        rating: 4.5,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "20 June, 2023",
-      }
-    ],
-    tags: [
-      "soda",
-      "sparkling",
-      "fresh",
-    ],
-    color: ['Navy'],
-    status: "publish",
-    sold: 27,
-    created_at: "2023-07-09T07:18:25.000000Z",
-    updated_at: "2023-09-29T15:23:32.000000Z",
-  },
-
   {
     id: 16,
     sku: "0016",
     title: "Chuối đẹp da, tốt cho sức khỏe 1Kg",
-    price: 20,
-    sale_price: 19,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-15.jpg"
@@ -887,7 +764,7 @@ const product_data: IProductData[] = [
     id: 17,
     sku: "0017",
     title: "Thanh long hữu cơ tươi số 1 Việt Nam",
-    price: 32,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-16.jpg",
@@ -943,7 +820,7 @@ const product_data: IProductData[] = [
     id: 18,
     sku: "0018",
     title: "Lá chanh hữu cơ tươi USA 5kg",
-    price: 31,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-17.jpg",
@@ -999,7 +876,7 @@ const product_data: IProductData[] = [
     id: 19,
     sku: "0019",
     title: "Lá cải hữu cơ tươi Quaker Popped",
-    price: 54,
+    price: 20000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-18.jpg",
@@ -1052,332 +929,59 @@ const product_data: IProductData[] = [
     updated_at: "2023-12-29T15:23:32.000000Z",
   },
 
-  {
-    id: 20,
-    sku: "0020",
-    title: "Snack Quaker Popped Rice Crisps sô cô la",
-    price: 33,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-19.jpg"
-    },
-    category: {
-      parent: 'Biscuits Snack',
-      child: 'Rice Crisps',
-    },
-    brand: "Ralphs",
-    quantity: 53,
-    unit: '5pc(s)',
-    description: "Snack Quaker Popped Rice Crisps sô cô la giòn tan. Sản phẩm được làm từ gạo nguyên chất, vị sô cô la ngọt ngào. Không chứa chất bảo quản độc hại. Thích hợp làm món ăn vặt bổ dưỡng. Được đóng gói cẩn thận.",
-    videoId: null,
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "4pc(s)" },
-      { key: "Color", value: "Black" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Ursula",
-        comment: "Tốt",
-        rating: 4.9,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "28 June, 2023",
-      }
-    ],
-    tags: [
-      "Rice",
-      "Crisps",
-    ],
-    color: ['Orange'],
-    status: "publish",
-    sold: 15,
-    created_at: "2023-09-11T07:18:25.000000Z",
-    updated_at: "2023-11-20T15:23:32.000000Z",
-  },
-  {
-    id: 21,
-    sku: "0021",
-    title: "Kẹo Laffy Taffy Laff Bites chuối – 4 Gói",
-    price: 55,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-20.jpg"
-    },
-    category: {
-      parent: 'Biscuits Snack',
-      child: 'Laffy Taffy',
-    },
-    brand: "ShopRite",
-    quantity: 55,
-    unit: '5pc(s)',
-    description: "Kẹo Laffy Taffy Laff Bites vị chuối thơm ngon. Kẹo có vị ngọt thanh, dai mềm, thơm mùi chuối tự nhiên. Sản phẩm không chứa chất bảo quản độc hại. Thích hợp cho trẻ em và người lớn. Được đóng gói cẩn thận.",
-    videoId: null,
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "5pc(s)" },
-      { key: "Color", value: "Black" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Ursula",
-        comment: "Tốt",
-        rating: 4.9,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "28 June, 2023",
-      }
-    ],
-    tags: [
-      "Laffy Taffy",
-      "Snacks",
-    ],
-    color: ['Orange'],
-    status: "publish",
-    sold: 20,
-    created_at: "2023-09-11T07:18:25.000000Z",
-    updated_at: "2023-11-20T15:23:32.000000Z",
-  },
-
-  {
-    id: 22,
-    sku: "0022",
-    title: "Thịt bò Angus hầm chất lượng cao USDA – 1Kg",
-    price: 120,
-    sale_price: 100,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-21.jpg"
-    },
-    category: {
-      parent: 'Fresh Meat',
-      child: 'Beef',
-    },
-    brand: "ShopRite",
-    quantity: 55,
-    unit: '2Kg',
-    description: "Thịt bò Angus chất lượng cao từ USDA. Thịt tươi ngon, mềm, giàu protein và chất dinh dưỡng. Phù hợp để hầm, nấu súp hoặc các món ăn khác. Được đóng gói và bảo quản cẩn thận. Đảm bảo an toàn vệ sinh thực phẩm.",
-    videoId: 'https://www.youtube.com/watch?v=QhBjJBQ4pgo',
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "2Kg" },
-      { key: "Color", value: "Black" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Ursula",
-        comment: "Tốt",
-        rating: 4.9,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "28 June, 2023",
-      }
-    ],
-    tags: [
-      "Beef",
-      "Fresh",
-    ],
-    color: ['White'],
-    status: "publish",
-    sold: 11,
-    created_at: "2023-08-12T07:18:25.000000Z",
-    updated_at: "2023-09-13T15:23:32.000000Z",
-  },
-  {
-    id: 23,
-    sku: "0023",
-    title: "Gà tươi ngon, giá tốt",
-    price: 150,
-    sale_price: 120,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-22.jpg",
-      thumbnail: "/assets/img/product/new/product-img-22-thumb.jpg",
-    },
-    category: {
-      parent: 'Fresh Meat',
-      child: 'Chicken',
-    },
-    brand: "ShopRite",
-    quantity: 62,
-    unit: '2Kg',
-    gallery: [
-      "/assets/img/product/new/product-img-22.jpg",
-      "/assets/img/product/new/product-img-22-thumb.jpg",
-    ],
-    description: "Gà tươi ngon, chất lượng cao. Thịt gà mềm, thơm, giàu protein. Sản phẩm được chọn lọc kỹ càng, đảm bảo an toàn vệ sinh. Phù hợp để nấu nhiều món ăn ngon. Được đóng gói và bảo quản cẩn thận.",
-    videoId: 'https://www.youtube.com/watch?v=QhBjJBQ4pgo',
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "2Kg" },
-      { key: "Color", value: "Black" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Iris",
-        comment: "Khá tốt",
-        rating: 3.5,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "14 June, 2023",
-      }
-    ],
-    tags: [
-      "Chicken",
-      "Fresh",
-    ],
-    status: "publish",
-    color: ['Lime'],
-    sold: 9,
-    created_at: "2023-05-12T07:18:25.000000Z",
-    updated_at: "2023-07-14T15:23:32.000000Z",
-  },
-  {
-    id: 24,
-    sku: "0024",
-    title: "Thịt tươi chất lượng số 1 từ USA 500g",
-    price: 80,
-    sale_price: 70,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-23.jpg",
-      thumbnail: "/assets/img/product/new/product-img-23-thumb.jpg",
-    },
-    category: {
-      parent: 'Fresh Meat',
-      child: 'Meat',
-    },
-    brand: "ShopRite",
-    quantity: 30,
-    unit: '500gm',
-    gallery: [
-      "/assets/img/product/new/product-img-23.jpg",
-      "/assets/img/product/new/product-img-23-thumb.jpg",
-    ],
-    description: "Thịt tươi chất lượng số 1 từ USA. Thịt mềm, thơm, giàu protein và chất dinh dưỡng. Sản phẩm được kiểm định chất lượng nghiêm ngặt. Phù hợp để nấu nhiều món ăn ngon. Được đóng gói và bảo quản cẩn thận.",
-    videoId: 'https://www.youtube.com/watch?v=QhBjJBQ4pgo',
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "500gm" },
-      { key: "Color", value: "Red" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Iris",
-        comment: "Khá tốt",
-        rating: 3.5,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "7 June, 2023",
-      }
-    ],
-    tags: [
-      "Meat",
-      "Fresh",
-    ],
-    status: "publish",
-    color: ['Indigo'],
-    sold: 7,
-    created_at: "2023-06-18T07:18:25.000000Z",
-    updated_at: "2023-07-19T15:23:32.000000Z",
-  },
-
-  {
-    id: 25,
-    sku: "0025",
-    title: "Sữa tươi sô cô la Quaker Popped Rice Crisps",
-    price: 19,
-    image: {
-      id: 1,
-      original: "/assets/img/product/new/product-img-13.jpg",
-      thumbnail: "/assets/img/product/new/product-img-13-thumb.jpg",
-    },
-    category: {
-      parent: 'Fresh Milk',
-      child: 'Milk',
-    },
-    brand: "ShopRite",
-    gallery: [
-      "/assets/img/product/new/product-img-13.jpg",
-      "/assets/img/product/new/product-img-13-thumb.jpg",
-    ],
-    quantity: 40,
-    unit: '2lb',
-    description: "Sữa tươi sô cô la thơm ngon, bổ dưỡng. Sản phẩm được làm từ sữa tươi chất lượng cao. Giàu canxi và protein, tốt cho sức khỏe. Vị ngọt vừa phải, không quá ngọt. Được đóng gói cẩn thận để giữ chất lượng.",
-    videoId: "rLrV5Tel7zw",
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "2lb" },
-      { key: "Color", value: "Yellow" },
-    ],
-    productInfoList: [
-      'Sản phẩm tươi ngon, chất lượng cao',
-      'An toàn cho người ăn chay và dị ứng',
-      'Đóng gói cẩn thận, bảo quản tốt'
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "Zack",
-        comment: "Tốt",
-        rating: 4.5,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "20 June, 2023",
-      }
-    ],
-    tags: [
-      "Milk",
-      "fresh",
-    ],
-    color: ['Cyan'],
-    status: "publish",
-    sold: 26,
-    created_at: "2023-07-09T07:18:25.000000Z",
-    updated_at: "2023-09-29T15:23:32.000000Z",
-  },
+  // 40 more vegetables (hết hàng, không hiển thị giá)
+  ...Array.from({ length: 40 }, (_, idx) => {
+    const id = 100 + idx;
+    // Chọn ảnh luân phiên từ danh sách ảnh có sẵn
+    const imageIdx = idx % outOfStockImages.length;
+    const imageObj = outOfStockImages[imageIdx];
+    return {
+      id,
+      sku: `VRAU${100 + idx}`,
+      title: `Rau hữu cơ ${idx + 1} (Hết hàng)`,
+      price: 0, // Price hidden via hidePrice flag
+      image: {
+        id: idx + 100,
+        original: imageObj.original,
+        thumbnail: imageObj.thumbnail,
+      },
+      category: {
+        parent: 'Vegetables',
+        child: `Rau loại ${idx + 1}`,
+      },
+      brand: "Super Market",
+      quantity: 0,
+      unit: "1kg",
+      gallery: [
+        imageObj.original,
+        imageObj.thumbnail,
+      ],
+      description: `Rau hữu cơ loại ${idx + 1} hết hàng. Chúng tôi sẽ bổ sung sớm nhất!`,
+      videoId: null,
+      additionalInfo: [
+        { key: "Xuất xứ", value: "Việt Nam" },
+        { key: "Tình trạng", value: "Hết hàng" },
+      ],
+      productInfoList: [
+        "Sản phẩm hiện đang hết hàng",
+        "Chỉ bán rau hữu cơ chất lượng",
+        "Mọi thắc mắc xin liên hệ cửa hàng"
+      ],
+      reviews: [],
+      tags: [
+        "Vegetable",
+        `Rau ${idx + 1}`,
+        "Hết hàng",
+      ],
+      color: ["Green"],
+      status: "out-of-stock",
+      sold: 0,
+      created_at: new Date(2024, 0, 1 + idx).toISOString(),
+      updated_at: new Date(2024, 2, 1 + idx).toISOString(),
+      banner: "Hết hàng",
+      hidePrice: true,
+    };
+  })
 ]
 
 export default product_data;

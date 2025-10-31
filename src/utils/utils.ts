@@ -46,3 +46,18 @@ export function averageRating(reviews: IReview[]) {
 
   return Number(avgRating.toFixed(0));
 }
+
+// Format price to VND
+export function formatPriceVND(price: number): string {
+  return new Intl.NumberFormat('vi-VN', {
+    style: 'currency',
+    currency: 'VND',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }).format(price);
+}
+
+// Format price range for filter (simple number format)
+export function formatPriceRange(price: number): string {
+  return new Intl.NumberFormat('vi-VN').format(price);
+}

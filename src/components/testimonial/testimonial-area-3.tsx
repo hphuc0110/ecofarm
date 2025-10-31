@@ -11,11 +11,11 @@ const TestimonialAreaThree = () => {
         <div className="row">
           <div className="col-lg-12 text-center">
             <div className="tpsection mb-35">
-              <h4 className="tpsection__sub-title">~ Happy Customer ~</h4>
-              <h4 className="tpsection__title">What Client Says</h4>
+              <h4 className="tpsection__sub-title">~ Khách hàng hạnh phúc ~</h4>
+              <h4 className="tpsection__title">Khách hàng nói gì</h4>
               <p>
-                The liber tempor cum soluta nobis eleifend option congue doming
-                quod mazim.
+                Thời gian trôi qua, chúng tôi luôn mang đến cho khách hàng nhiều
+                lựa chọn tuyệt vời và trải nghiệm hài lòng nhất.
               </p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const TestimonialAreaThree = () => {
                         src={item.user}
                         width={70}
                         height={70}
-                        alt="user"
+                        alt="người dùng"
                       />
                     </div>
                     <div className="tptestimonial__content tptestimonial__content2">

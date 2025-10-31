@@ -12,7 +12,7 @@ import Footer from "@/layouts/footer/footer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About - Orfarm",
+  title: "About - Ecofarm Hải Dương",
 };
 
 export default function AboutPage() {
@@ -26,21 +26,25 @@ export default function AboutPage() {
         {/* breadcrumb area start */}
         <section
           className="about-area tpabout__inner-bg pt-175 pb-170 mb-50"
-          style={{backgroundImage: `url(/assets/img/banner/about-bg-1.png)`}}
+          style={{ backgroundImage: `url(/assets/img/banner/about-bg-1.png)` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="tpabout__inner text-center">
-                  <h5 className="tpabout__inner-sub mb-15">About for Orfarm</h5>
-                  <h3 className="tpabout__inner-title mb-35">Unique People</h3>
+                  <h5 className="tpabout__inner-sub mb-15">Về Ecofarm</h5>
+                  <h3 className="tpabout__inner-title mb-35">
+                    Những con người đặc biệt
+                  </h3>
                   <p>
-                    Over 25 years of experience, we have crafted thousands of
-                    strategic discovery process that <br /> enables us to peel
-                    back the layers which enable us to understand, connect.
+                    Với hơn 25 năm kinh nghiệm, chúng tôi đã xây dựng hàng ngàn
+                    quy trình khám phá chiến lược
+                    <br />
+                    giúp chúng tôi bóc tách từng lớp để hiểu và kết nối sâu sắc
+                    hơn với khách hàng.
                   </p>
                   <div className="tpabout__inner-btn">
-                    <Link href="/about">About us</Link>
+                    <Link href="/about">Về chúng tôi</Link>
                   </div>
                 </div>
               </div>
@@ -50,19 +54,19 @@ export default function AboutPage() {
         {/* breadcrumb area end */}
 
         {/* about area start */}
-        <AboutAreaFour/>
+        <AboutAreaFour />
         {/* about area end */}
 
         {/* about area start */}
-        <AboutArea style_2={true}/>
+        <AboutArea style_2={true} />
         {/* about area end */}
 
         {/* about area start */}
-        <AboutAreaThree style_2={true}/>
+        <AboutAreaThree style_2={true} />
         {/* about area end */}
 
         {/* about video area start */}
-        <AboutVideoArea/>
+        <AboutVideoArea />
         {/* about video area end */}
 
         {/* choose area start */}
@@ -70,7 +74,7 @@ export default function AboutPage() {
         {/* choose area end */}
 
         {/* testimonial three start */}
-        <TestimonialAreaThree/>
+        <TestimonialAreaThree />
         {/* testimonial three end */}
 
         {/* feature area start */}

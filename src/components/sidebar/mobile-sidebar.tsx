@@ -21,14 +21,14 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
           className="tpsideinfo__close"
           onClick={() => setIsSidebarOpen(false)}
         >
-          Close<i className="fal fa-times ml-10"></i>
+          Đóng<i className="fal fa-times ml-10"></i>
         </button>
         <div className="tpsideinfo__search text-center pt-35">
           <span className="tpsideinfo__search-title mb-20">
-            What Are You Looking For?
+            Bạn đang tìm gì?
           </span>
           <form action="#">
-            <input type="text" placeholder="Search Products..." />
+            <input type="text" placeholder="Tìm kiếm sản phẩm..." />
             <button>
               <i className="icon-search"></i>
             </button>
@@ -63,7 +63,7 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
                 aria-selected="false"
                 tabIndex={-1}
               >
-                Categories
+                Danh mục
               </button>
             </li>
           </ul>
@@ -79,7 +79,7 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
                 <div className="mean-bar">
                   <nav className="mean-nav">
                     {/* Mobile Menus */}
-                    <MobileMenus/>
+                    <MobileMenus />
                     {/* Mobile Menus */}
                   </nav>
                 </div>
@@ -96,8 +96,17 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
                 <ul>
                   {categories.map((category) => (
                     <li key={category.id}>
-                      <a className="text-white pointer" 
-                        onClick={() => router.push(`/search?category=${category.name.split(" ").join("-").toLowerCase()}`) }>
+                      <a
+                        className="text-white pointer"
+                        onClick={() =>
+                          router.push(
+                            `/search?category=${category.name
+                              .split(" ")
+                              .join("-")
+                              .toLowerCase()}`
+                          )
+                        }
+                      >
                         {category.name}
                       </a>
                     </li>
@@ -109,12 +118,12 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
         </div>
         <div className="tpsideinfo__account-link">
           <Link href="/login">
-            <i className="icon-user icons"></i> Login / Register
+            <i className="icon-user icons"></i> Đăng nhập / Đăng ký
           </Link>
         </div>
         <div className="tpsideinfo__wishlist-link">
           <Link href="/wishlist">
-            <i className="icon-heart"></i> Wishlist
+            <i className="icon-heart"></i> Yêu thích
           </Link>
         </div>
       </div>

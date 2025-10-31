@@ -61,7 +61,7 @@ const HeroBanner = () => {
                 className="tpslider pt-90 pb-0 grey-bg"
                 style={{backgroundImage: `url(/assets/img/slider/shape-bg.jpg)`}}
               >
-                <div className="container">
+                <div className="container relative">
                   <div className="row align-items-center">
                     <div className="col-xxl-5 col-lg-6 col-md-6 col-12 col-sm-6">
                       <div className="tpslider__content pt-20">
@@ -80,22 +80,16 @@ const HeroBanner = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-xxl-7 col-lg-6 col-md-6 col-12 col-sm-6">
-                      <div className="tpslider__thumb p-relative pt-15">
+                    <div className="col-xxl-7 col-lg-6 col-md-6 col-12 col-sm-6 absolute top-0">
+                      <div className="tpslider__thumb p-relative  ">
                         <Image
                           className="tpslider__thumb-img"
                           src={item.bg_img}
-                          width={746}
-                          height={485}
+                          width={500}
+                          height={500}
                           alt="slider-bg"
                           style={img_style}
                         />
-                        <div className="tpslider__shape d-none d-md-block">
-                          <ShapeImg img={shape_1} cls="tpslider__shape-one" />
-                          <ShapeImg img={shape_2} cls="tpslider__shape-two" />
-                          <ShapeImg img={shape_3} cls="tpslider__shape-three" />
-                          <ShapeImg img={shape_4} cls="tpslider__shape-four" />
-                        </div>
                       </div>
                     </div>
                   </div>

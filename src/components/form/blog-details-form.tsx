@@ -12,9 +12,9 @@ type FormData = {
 };
 
 const schema = yup.object().shape({
-  name: yup.string().required().label("Name"),
+  name: yup.string().required().label("Tên"),
   email: yup.string().required().email().label("Email"),
-  message: yup.string().required().label("Message"),
+  message: yup.string().required().label("Tin nhắn"),
 });
 
 const BlogDetailsForm = () => {
@@ -30,7 +30,7 @@ const BlogDetailsForm = () => {
       <div className="row">
         <div className="col-lg-6">
           <div className="tpreview__input mb-30">
-            <input id='name' {...register("name")} type="text" placeholder="Name" />
+            <input id='name' {...register("name")} type="text" placeholder="Tên" />
             <ErrorMsg msg={errors.name?.message!} />
           </div>
         </div>
@@ -42,7 +42,7 @@ const BlogDetailsForm = () => {
         </div>
         <div className="col-lg-12">
           <div className="tpreview__input mb-5">
-            <textarea id='message' {...register("message")} name="text" placeholder="Message"></textarea>
+            <textarea id='message' {...register("message")} name="text" placeholder="Tin nhắn"></textarea>
             <ErrorMsg msg={errors.message?.message!} />
           </div>
         </div>
@@ -55,13 +55,12 @@ const BlogDetailsForm = () => {
                 id="remember"
               />
               <label className="form-check-label" htmlFor="remember">
-                Save my name, email, and website in this browser for the next
-                time I comment.
+                Lưu tên, email và trang web của tôi trong trình duyệt này cho lần bình luận tiếp theo.
               </label>
             </div>
           </div>
           <div className="tpreview__submit mt-25">
-            <button className="tp-btn" type='submit'>Post Comment</button>
+            <button className="tp-btn" type='submit'>Đăng Bình Luận</button>
           </div>
         </div>
       </div>

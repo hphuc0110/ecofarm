@@ -39,9 +39,9 @@ const BlogItemsTwo = () => {
        <div className="row">
           <div className="col-lg-12 text-center">
              <div className="tpsection mb-35">
-                <h4 className="tpsection__sub-title">~ Read Our Blog ~</h4>
-                <h4 className="tpsection__title">Our Latest Post</h4>
-                <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p>
+                <h4 className="tpsection__sub-title">~ Đọc Blog Của Chúng Tôi ~</h4>
+                <h4 className="tpsection__title">Bài Viết Mới Nhất</h4>
+                <p>Các bài viết mới nhất về thực phẩm tươi ngon, lối sống lành mạnh và những mẹo hay cho cuộc sống của bạn.</p>
              </div>
           </div>
        </div>

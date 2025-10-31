@@ -9,7 +9,7 @@ import ShopDetailsArea from "@/components/shop-details/shop-details-area";
 import RelatedProducts from "@/components/product/related-products";
 
 export const metadata: Metadata = {
-  title: "Shop Details Two - Orfarm",
+  title: "Shop Details Two - Ecofarm",
 };
 
 export default function ShopDetailsTwoPage() {

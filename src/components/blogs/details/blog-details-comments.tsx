@@ -25,7 +25,7 @@ function PostboxCommentBox({ img, isChildren, name, desc }: IProps) {
           </div>
           <p dangerouslySetInnerHTML={{ __html: desc }}></p>
           <div className="postbox__comment-reply">
-            <a href="#">Leave Reply</a>
+            <a href="#">Trả lời</a>
           </div>
         </div>
       </div>
@@ -39,29 +39,27 @@ const BlogDetailsComments = () => {
       <PostboxCommentBox
         img="1"
         isChildren={false}
-        name="Kristin Watson"
-        desc="The tiles are highly resistant to water and dirt and can be
-              cleaned, so they are compatible with the cultivation of plants and
-              cooking and the functions. There are few plugins and apps
-              available for this purpose, many of them required a monthly
-              subscription."
+        name="Nguyễn Thị Thúy"
+        desc="Thực phẩm có khả năng chống nước và bụi bẩn cao, dễ dàng làm sạch, 
+              nên chúng phù hợp với việc trồng cây và nấu ăn và các chức năng khác. 
+              Có rất ít ứng dụng và tiện ích có sẵn cho mục đích này, nhiều ứng dụng 
+              trong số đó yêu cầu đăng ký hàng tháng."
       />
       <PostboxCommentBox
         img="2"
         isChildren={true}
-        name="Brooklyn Simmons"
-        desc="Include anecdotal examples of your experience, or things you took
-              notice of that you <br /> feel others would find useful."
+        name="Bùi Mạnh Quỳnh"
+        desc="Bao gồm các ví dụ từ kinh nghiệm của bạn, hoặc những điều bạn nhận thấy 
+              mà bạn <br /> cảm thấy người khác sẽ thấy hữu ích."
       />
       <PostboxCommentBox
         img="3"
         isChildren={false}
-        name="Kristin Watson"
-        desc="The tiles are highly resistant to water and dirt and can be
-              cleaned, so they are compatible with the cultivation of plants and
-              cooking and the functions. There are few plugins and apps
-              available for this purpose, many of them required a monthly
-              subscription."
+        name="Lê Thị Thu Hà"
+        desc="Thực phẩm có khả năng chống nước và bụi bẩn cao, dễ dàng làm sạch, 
+              nên chúng phù hợp với việc trồng cây và nấu ăn và các chức năng khác. 
+              Có rất ít ứng dụng và tiện ích có sẵn cho mục đích này, nhiều ứng dụng 
+              trong số đó yêu cầu đăng ký hàng tháng."
       />
     </ul>
   );

@@ -51,11 +51,11 @@ const BlogItems = ({style_2=false,bottom_show=true,spacing}: IProps) => {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <div className="tpsection mb-35">
-                  <h4 className="tpsection__sub-title">~ Read Our Blog ~</h4>
-                  <h4 className="tpsection__title">Our Latest Post</h4>
+                  <h4 className="tpsection__sub-title">~ Đọc Blog Của Chúng Tôi ~</h4>
+                  <h4 className="tpsection__title">Bài Viết Mới Nhất</h4>
                   <p>
-                    The liber tempor cum soluta nobis eleifend option congue
-                    doming quod mazim.
+                    Các bài viết mới nhất về thực phẩm tươi ngon, lối sống lành mạnh
+                    và những mẹo hay cho cuộc sống của bạn.
                   </p>
                 </div>
               </div>
@@ -66,14 +66,14 @@ const BlogItems = ({style_2=false,bottom_show=true,spacing}: IProps) => {
               <div className="col-md-6 text-center">
                 <div className="tpsection mb-15">
                   <h4 className="tpsection__title text-start brand-product-title">
-                    Our Latest News
+                    Tin Tức Mới Nhất
                   </h4>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="tpproduct__all-item">
                   <Link href="/blog">
-                    View All <i className="icon-chevron-right"></i>
+                    Xem Tất Cả <i className="icon-chevron-right"></i>
                   </Link>
                 </div>
               </div>

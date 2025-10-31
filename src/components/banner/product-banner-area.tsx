@@ -33,9 +33,9 @@ const ProductBannerArea = () => {
     <section className="banner-area pb-60 grey-bg">
       <div className="container">
           <div className="row">
-            <BannerItem bg='/assets/img/banner/banner-1.jpg' subtitle='Top offers' title='Eat Green <br/> Best For Family' text='Free Shipping 05km' />
-            <BannerItem bg='/assets/img/banner/banner-2.jpg' subtitle='Weekend Deals' title='Fresh Food <br/> Restore Health' text='Top Quality Products' isWhite={true} />
-            <BannerItem bg='/assets/img/banner/banner-3.jpg' subtitle='Top seller' title='Healthy <br/> Fresh Free Bread' text='Limited Time: Online Only!' />
+            <BannerItem bg='/assets/img/banner/banner-1.jpg' subtitle='Top offers' title='Gói Rau ĐỊNH KỲ <br/>GÓI AN TÂM - GÓI ĐỦ ĐẦY' text='Free Shipping 05km' />
+            <BannerItem bg='/assets/img/banner/banner-2.jpg' subtitle='Weekend Deals' title='Uống DETOX <br/> Vừa vui vừa khoẻ' text='MUA 5 TẶNG 2' isWhite={true} />
+            <BannerItem bg='/assets/img/banner/banner-3.jpg' subtitle='TOP SECRET' title='Blind Box Rau' text='Chỉ từ 50k' />
           </div>
       </div>
     </section>

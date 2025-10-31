@@ -2,25 +2,11 @@
 export const hero_slider_data = [
   {
     id:1,
-    subtitle:'Top Seller In The Week',
-    title:'Choose Your Healthy Lifestyle.',
-    sm_desc:'Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better',
-    bg_img:'/assets/img/slider/slider-bg-1.png',
+    subtitle:'THỰC PHẢM SẠCH TRONG NGÀY',
+    title:'Nơi Sự Trong Lành Bắt Nguồn',
+    sm_desc:'Chúng tôi tự hào mang đến một không gian xanh mát, nơi bạn có thể tìm thấy những sản phẩm nông sản tươi sạch chuẩn VietGAP/Hữu cơ từ vùng đất Hải Dương trù phú. Mỗi sản phẩm đều là tâm huyết của người nông dân, được chăm sóc kỹ lưỡng và đảm bảo minh bạch nguồn gốc với mã QR truy xuất thông tin rõ ràng.',
+    bg_img:'/assets/img/slider/hero.png',
   },
-  {
-    id:2,
-    subtitle:'Top Seller In The Week',
-    title:'Fresh Bread <br/> Oatmeal Crumble.',
-    sm_desc:'Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better',
-    bg_img:'/assets/img/slider/slider-bg-2.png',
-  },
-  {
-    id:3,
-    subtitle:'Top Seller In The Week',
-    title:'The Best <br/> Health Fresh.',
-    sm_desc:'Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better',
-    bg_img:'/assets/img/slider/slider-bg-3.png',
-  }
 ]
 // home two
 export const hero_slider_two_data = [

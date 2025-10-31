@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Rating } from "react-simple-star-rating";
 import { IProductData } from "@/types/product-d-t";
-import { averageRating, discountPercentage, isHot } from "@/utils/utils";
+import { averageRating, discountPercentage, isHot, formatPriceVND } from "@/utils/utils";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import { add_cart_product } from "@/redux/features/cart";
 import { add_to_wishlist } from "@/redux/features/wishlist";
@@ -95,7 +95,7 @@ const ProductListItem = ({ product }: IProps) => {
         <h4 className="tplist__instock">
           Availability: <span>{quantity} in stock</span>{" "}
         </h4>
-        <h3 className="tplist__count mb-15">${sale_price ? sale_price.toFixed(2) : price.toFixed(2)}</h3>
+        <h3 className="tplist__count mb-15">{formatPriceVND(sale_price || price)}</h3>
           {isItemAddToCart ? (
               <Link href="/cart" className="tp-btn-2 mb-10">
                 View Cart
@@ -104,7 +104,7 @@ const ProductListItem = ({ product }: IProps) => {
               <button className="tp-btn-2 mb-10"
                 onClick={() => dispatch(add_cart_product(product))}
               >
-              Add to Cart
+              Đặt hàng
             </button>
           )}
         <div className="tplist__shopping">

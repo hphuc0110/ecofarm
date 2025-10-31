@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Rating } from "react-simple-star-rating";
 import { IProductData } from "@/types/product-d-t";
 import product_data from "@/data/product-data";
-import { averageRating, isHot } from "@/utils/utils";
+import { averageRating, isHot, formatPriceVND } from "@/utils/utils";
 import ReviewForm from "../form/review-form";
 import { Video } from "../svg";
 import VideoPopup from "../common/modal/video-popup";
@@ -284,8 +284,8 @@ const ShopDetailsArea = ({ product,navStyle=false,topThumb=false }: IProps) => {
                       </div>
 
                       <div className={`tpproduct__price`}>
-                        <span>${price.toFixed(2)} </span>
-                        {sale_price && <del>${sale_price.toFixed(2)}</del>}
+                        <span>{formatPriceVND(price)} </span>
+                        {sale_price && <del>{formatPriceVND(sale_price)}</del>}
                       </div>
                     </div>
                   </div>

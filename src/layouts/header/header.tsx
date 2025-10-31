@@ -29,7 +29,7 @@ const Header = () => {
                      <div className="col-xl-3">
                         <div className="header__logo">
                            <Link href="/">
-                              <Image src={logo} alt="logo" style={{height: '120px', width: '120px'}}/>
+                              <Image src={logo} alt="logo" style={{height: '80px', width: '80px'}}/>
                            </Link>
                         </div>
                      </div>
@@ -44,12 +44,6 @@ const Header = () => {
                         <div className="header__info d-flex align-items-center">
                            <div className="header__info-search tpcolor__purple ml-10">
                               <button onClick={() => setIsSearchOpen(true)} className="tp-search-toggle"><i className="icon-search"></i></button>
-                           </div>
-                           <div className="header__info-user tpcolor__yellow ml-10">
-                              <Link href="/login"><i className="icon-user"></i></Link>
-                           </div>
-                           <div className="header__info-wishlist tpcolor__greenish ml-10">
-                              <Link href="/wishlist"><i className="icon-heart icons"></i></Link>
                            </div>
                            <div className="header__info-cart tpcolor__oasis ml-10 tp-cart-toggle">
                               <button onClick={() => setIsCartOpen(true)}>
@@ -78,7 +72,7 @@ const Header = () => {
                   <div className="col-lg-4 col-md-4 col-6 col-sm-4">
                      <div className="header__logo text-center">
                         <Link href="/">
-                           <Image src={logo} alt="logo" style={{height: 'auto'}}/>
+                           <Image src={logo} alt="logo" style={{height: '80px', width: '80px'}}/>
                         </Link>
                      </div>
                   </div>
@@ -86,12 +80,6 @@ const Header = () => {
                      <div className="header__info d-flex align-items-center">
                         <div className="header__info-search tpcolor__purple ml-10 d-none d-sm-block">
                            <button onClick={() => setIsSearchOpen(true)} className="tp-search-toggle"><i className="icon-search"></i></button>
-                        </div>
-                        <div className="header__info-user tpcolor__yellow ml-10 d-none d-sm-block">
-                           <Link href="/login"><i className="icon-user"></i></Link>
-                        </div>
-                        <div className="header__info-wishlist tpcolor__greenish ml-10 d-none d-sm-block">
-                           <Link href="/wishlist"><i className="icon-heart icons"></i></Link>
                         </div>
                         <div className="header__info-cart tpcolor__oasis ml-10 tp-cart-toggle">
                            <button onClick={() => setIsCartOpen(true)}>

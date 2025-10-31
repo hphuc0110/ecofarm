@@ -6,6 +6,7 @@ import { IProductData } from "@/types/product-d-t";
 import { useAppDispatch } from "@/redux/hook";
 import { add_cart_product } from "@/redux/features/cart";
 import { remove_wishlist_product } from "@/redux/features/wishlist";
+import { formatPriceVND } from "@/utils/utils";
 
 // prop type
 type IProps = {
@@ -35,9 +36,9 @@ const WishlistItem = ({ product }: IProps) => {
       </td>
       <td className="product-price">
         {product.sale_price ? (
-          <span className="amount">${product.sale_price.toFixed(2)}</span>
+          <span className="amount">{formatPriceVND(product.sale_price)}</span>
         ) : (
-          <span className="amount">${product.price.toFixed(2)}</span>
+          <span className="amount">{formatPriceVND(product.price)}</span>
         )}
       </td>
       <td className="product-add-to-cart">
@@ -45,7 +46,7 @@ const WishlistItem = ({ product }: IProps) => {
           onClick={() => dispatch(add_cart_product(product))}
           className="tp-btn tp-color-btn  tp-wish-cart banner-animation"
         >
-          Add To Cart
+          Đặt hàng
         </button>
       </td>
       <td className="product-remove">

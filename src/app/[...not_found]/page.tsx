@@ -9,7 +9,7 @@ import error_shape from '@/assets/img/shape/erorr-shape.png';
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Not Found - Orfarm",
+  title: "Not Found - Ecofarm Hải Dương",
 };
 
 export default function NotFound() {
