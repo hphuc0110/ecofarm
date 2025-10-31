@@ -19,16 +19,6 @@ const Menus = () => {
               <ul className="sub-menu home-menu-style">
                 {menu.home_menus.map((home_menu, i) => (
                   <li key={i}>
-                    <Link href={home_menu.link}>
-                      <Image
-                        src={home_menu.img}
-                        alt="home-img"
-                        width={208}
-                        height={219}
-                        style={{width:'100%',height:'100%'}}
-                      />
-                      {home_menu.title}
-                    </Link>
                   </li>
                 ))}
               </ul>

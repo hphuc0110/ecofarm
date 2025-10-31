@@ -30,14 +30,14 @@ const ShopItems = ({ products, activeTab, currentItems }: IProps) => {
               height={171}
             />
           </div>
-          <h4>Sorry! Could not find the product you were looking For!!!</h4>
+          <h4>Xin lỗi! Không tìm thấy sản phẩm bạn đang tìm!!!</h4>
           <p>
-            Please check if you have misspelt something or try searching with
-            other words.
+            Vui lòng kiểm tra xem bạn có gõ sai gì không hoặc thử tìm kiếm với
+            từ khóa khác.
           </p>
           <button onClick={() => dispatch(reset())} className="tpslider__btn">
             <Link href="/shop" className="tp-btn">
-              Continue Shopping
+              Tiếp tục mua sắm
             </Link>
           </button>
         </div>

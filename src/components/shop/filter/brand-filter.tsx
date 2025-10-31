@@ -10,7 +10,7 @@ const BrandFilter = () => {
   const dispatch = useAppDispatch();
   return (
     <div className="tpshop__widget mb-30 pb-25">
-      <h4 className="tpshop__widget-title">FILTER BY BRAND</h4>
+      <h4 className="tpshop__widget-title">LỌC THEO THƯƠNG HIỆU</h4>
       {brands.map((brand) => (
         <div key={brand.id} className="form-check">
           <input

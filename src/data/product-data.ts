@@ -4,7 +4,7 @@ const product_data: IProductData[] = [
   {
     id: 1,
     sku: "001",
-    title: "1kg purple onion/ onion/ dried onion Kinh men",
+    title: "Hành tím/ Hành tây/ Hành khô Kinh men 1kg",
     price: 20,
     sale_price: 18,
     image: {
@@ -23,7 +23,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-1.jpg",
       "/assets/img/product/new/product-img-1-thumb.jpg",
     ],
-    description: "Onion Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Hành tím tươi ngon, chất lượng cao được chọn lọc kỹ càng. Sản phẩm được trồng theo phương pháp hữu cơ, đảm bảo an toàn vệ sinh thực phẩm. Hành tím có vị cay nhẹ, thơm đặc trưng, phù hợp cho nhiều món ăn. Sản phẩm được đóng gói cẩn thận để giữ được độ tươi ngon. Chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng tốt nhất.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -34,15 +34,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "White" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "John",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -50,7 +50,7 @@ const product_data: IProductData[] = [
       {
         id: 2,
         name: "Mark",
-        comment: "Awesome",
+        comment: "Tuyệt vời",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -70,7 +70,7 @@ const product_data: IProductData[] = [
   {
     id: 2,
     sku: "002",
-    title: "Fresh And Sour Lemon Like An Old Lover",
+    title: "Chanh tươi chua ngọt tự nhiên",
     price: 25,
     sale_price: 22,
     image: {
@@ -84,7 +84,7 @@ const product_data: IProductData[] = [
     brand: "Super Market",
     quantity: 30,
     unit: '4pc(s)',
-    description: "Lemon Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Chanh tươi ngon, mọng nước được hái từ vườn. Chanh có vị chua thanh mát, thơm dịu nhẹ, giàu vitamin C. Sản phẩm được chọn lọc kỹ càng, đảm bảo chất lượng cao. Phù hợp để làm nước giải khát, gia vị nấu ăn. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -95,15 +95,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Lemon" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "John",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -122,7 +122,7 @@ const product_data: IProductData[] = [
   {
     id: 3,
     sku: "003",
-    title: "Fresh Organic SuSu Cheap Tasty Tonic",
+    title: "Su su hữu cơ tươi ngon, bổ dưỡng",
     price: 25,
     sale_price: 24,
     image: {
@@ -141,7 +141,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-3.jpg",
       "/assets/img/product/new/product-img-3-thumb.jpg",
     ],
-    description: "Kiwi Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Su su hữu cơ tươi ngon, giòn mát. Sản phẩm được trồng theo phương pháp hữu cơ, không sử dụng hóa chất. Su su giàu chất xơ, vitamin và khoáng chất, tốt cho sức khỏe. Có thể chế biến thành nhiều món ăn ngon. Được đóng gói và bảo quản cẩn thận.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -152,15 +152,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "White" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Mark",
-        comment: "Awesome",
+        comment: "Tuyệt vời",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -180,7 +180,7 @@ const product_data: IProductData[] = [
   {
     id: 4,
     sku: "004",
-    title: "Ginger Fresh, Whole, Organic – 250gram",
+    title: "Gừng tươi nguyên củ hữu cơ – 250gram",
     price: 30,
     sale_price: 27,
     image: {
@@ -194,7 +194,7 @@ const product_data: IProductData[] = [
     brand: "Super Market",
     quantity: 30,
     unit: '250gm',
-    description: "Ginger Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Gừng tươi nguyên củ, thơm nồng. Gừng có vị cay ấm, giàu dưỡng chất, tốt cho tiêu hóa và sức khỏe. Sản phẩm được trồng hữu cơ, không phun thuốc. Thích hợp để làm gia vị, pha trà, hoặc làm thuốc. Được đóng gói cẩn thận để giữ độ tươi.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -205,15 +205,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "John",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -232,7 +232,7 @@ const product_data: IProductData[] = [
   {
     id: 5,
     sku: "005",
-    title: "Guava Leaves From Trees Grown In South",
+    title: "Ổi tươi từ vườn miền Nam",
     price: 35,
     sale_price: 30,
     image: {
@@ -251,7 +251,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-5.jpg",
       "/assets/img/product/new/product-img-5-thumb.jpg",
     ],
-    description: "Apricots Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Ổi tươi ngon, giòn ngọt từ vườn miền Nam. Ổi có vị ngọt thanh, giòn mát, giàu vitamin C và chất xơ. Sản phẩm được chọn lọc kỹ càng, đảm bảo chất lượng cao. Có thể ăn trực tiếp hoặc ép nước. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -262,15 +262,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "White" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Mark",
-        comment: "Awesome",
+        comment: "Tuyệt vời",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -293,7 +293,7 @@ const product_data: IProductData[] = [
   {
     id: 6,
     sku: "006",
-    title: "Lettuce Fresh Produce Vegetables",
+    title: "Xúp lơ tươi sạch",
     price: 10,
     image: {
       id: 1,
@@ -311,7 +311,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-6.jpg",
       "/assets/img/product/new/product-img-6-thumb.jpg",
     ],
-    description: "Cauliflower Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Xà lách tươi sạch, giòn mát. Rau được trồng theo tiêu chuẩn an toàn, không sử dụng hóa chất độc hại. Xà lách giàu vitamin và chất xơ, tốt cho sức khỏe. Thích hợp để làm salad, gỏi hoặc ăn kèm. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -322,15 +322,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "White" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Naim",
-        comment: "Average",
+        comment: "Bình thường",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "10 April, 2023",
@@ -349,7 +349,7 @@ const product_data: IProductData[] = [
   {
     id: 7,
     sku: "007",
-    title: "VietNamese Specialty Fresh Litchi, Plump Fruit",
+    title: "Vải thiều tươi ngon đặc sản Việt Nam",
     price: 38,
     sale_price: 35,
     image: {
@@ -368,7 +368,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-7.jpg",
       "/assets/img/product/new/product-img-7-thumb.jpg",
     ],
-    description: "Cranberries Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Vải thiều tươi ngon, đặc sản Việt Nam. Vải có vị ngọt thanh, mọng nước, thơm đặc trưng. Sản phẩm được hái từ vườn, đảm bảo chất lượng cao. Giàu vitamin C và khoáng chất, tốt cho sức khỏe. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -379,15 +379,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "White" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "John",
-        comment: "Awesome",
+        comment: "Tuyệt vời",
         rating: 4.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "25 March, 2023",
@@ -406,7 +406,7 @@ const product_data: IProductData[] = [
   {
     id: 8,
     sku: "008",
-    title: "Enormous Granite Bag Fresh Goods 100%",
+    title: "Túi hàng tươi sống chất lượng cao 100%",
     price: 42,
     image: {
       id: 1,
@@ -419,7 +419,7 @@ const product_data: IProductData[] = [
     brand: "Aldi",
     quantity: 20,
     unit: '4pc(s)',
-    description: "Cranberries Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Túi hàng tươi sống chất lượng cao, đảm bảo an toàn. Sản phẩm được chọn lọc kỹ càng từ các nguồn uy tín. Đóng gói cẩn thận để giữ độ tươi ngon. Phù hợp cho nhiều món ăn khác nhau. Cam kết chất lượng tốt nhất.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -430,15 +430,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "White" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Smith",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.8,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "25 June, 2023",
@@ -457,7 +457,7 @@ const product_data: IProductData[] = [
   {
     id: 9,
     sku: "009",
-    title: "Fresh And Sour Lemon Like An Old Lover",
+    title: "Chanh tươi chua ngọt tự nhiên",
     price: 25,
     sale_price: 22,
     image: {
@@ -471,7 +471,7 @@ const product_data: IProductData[] = [
     brand: "Aldi",
     quantity: 30,
     unit: '4pc(s)',
-    description: "Lemon Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Chanh tươi ngon, mọng nước được hái từ vườn. Chanh có vị chua thanh mát, thơm dịu nhẹ, giàu vitamin C. Sản phẩm được chọn lọc kỹ càng, đảm bảo chất lượng cao. Phù hợp để làm nước giải khát, gia vị nấu ăn. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -482,15 +482,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Lemon" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "John",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "06 March, 2023",
@@ -509,7 +509,7 @@ const product_data: IProductData[] = [
   {
     id: 10,
     sku: "0010",
-    title: "Fresh Fruit Sapodilla Organic USA 100g",
+    title: "Sapôchê hữu cơ tươi ngon USA 100g",
     price: 21,
     image: {
       id: 1,
@@ -522,7 +522,7 @@ const product_data: IProductData[] = [
     brand: "Albertsons",
     quantity: 35,
     unit: '100gm',
-    description: "Common Grape Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Sapôchê hữu cơ tươi ngon từ USA. Quả có vị ngọt thanh, mọng nước, thơm dịu. Sản phẩm được trồng hữu cơ, đảm bảo an toàn. Giàu vitamin và khoáng chất, tốt cho sức khỏe. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -533,15 +533,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Orange" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "John",
-        comment: "Good",
+        comment: "Tốt",
         rating: 3.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "12 March, 2023",
@@ -560,7 +560,7 @@ const product_data: IProductData[] = [
   {
     id: 11,
     sku: "0011",
-    title: "Fresh Organic Plum Moc Chau Trip 100g",
+    title: "Mận hữu cơ tươi Mộc Châu 100g",
     price: 26,
     image: {
       id: 1,
@@ -578,7 +578,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-10.jpg",
       "/assets/img/product/new/product-img-10-thumb.jpg",
     ],
-    description: "Plum Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Mận hữu cơ tươi ngon từ Mộc Châu. Mận có vị ngọt thanh, giòn mát, thơm dịu. Sản phẩm được trồng hữu cơ, không sử dụng hóa chất. Giàu vitamin và chất xơ, tốt cho tiêu hóa. Được đóng gói cẩn thận để giữ độ tươi ngon.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -589,15 +589,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Black" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Vikas",
-        comment: "Average",
+        comment: "Bình thường",
         rating: 4.2,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "16 April, 2023",
@@ -616,7 +616,7 @@ const product_data: IProductData[] = [
   {
     id: 12,
     sku: "0012",
-    title: "Mangosteen Organic From VietNamese",
+    title: "Măng cụt hữu cơ từ Việt Nam",
     price: 30,
     sale_price: 15,
     image: {
@@ -630,7 +630,7 @@ const product_data: IProductData[] = [
     brand: "Albertsons",
     quantity: 55,
     unit: '5pc(s)',
-    description: "Mangosteen Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Măng cụt hữu cơ tươi ngon từ Việt Nam. Quả có vị ngọt thanh, thơm đặc trưng, mọng nước. Sản phẩm được trồng hữu cơ, không sử dụng hóa chất. Giàu vitamin và chất chống oxy hóa, tốt cho sức khỏe. Được đóng gói cẩn thận.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -641,15 +641,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Black" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Pik",
-        comment: "Average",
+        comment: "Bình thường",
         rating: 4.3,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "18 April, 2023",
@@ -668,7 +668,7 @@ const product_data: IProductData[] = [
   {
     id: 13,
     sku: "0013",
-    title: "Organic Sweet Banana Crisps Snacks",
+    title: "Snack chuối hữu cơ ngọt ngào",
     price: 20,
     image: {
       id: 1,
@@ -681,7 +681,7 @@ const product_data: IProductData[] = [
     brand: "Vons",
     quantity: 60,
     unit: '20pc(s)',
-    description: "Banana Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Snack chuối hữu cơ ngọt ngào, giòn tan. Sản phẩm được làm từ chuối hữu cơ chất lượng cao. Không chứa chất bảo quản, an toàn cho sức khỏe. Thích hợp làm món ăn vặt bổ dưỡng. Được đóng gói cẩn thận.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -692,15 +692,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Will",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "20 June, 2023",
@@ -724,7 +724,7 @@ const product_data: IProductData[] = [
   {
     id: 14,
     sku: "0014",
-    title: "Fresh Milk Chocolate Quaker Popped Rice Crisps",
+    title: "Sữa tươi sô cô la Quaker Popped Rice Crisps",
     price: 19,
     image: {
       id: 1,
@@ -742,7 +742,7 @@ const product_data: IProductData[] = [
     ],
     quantity: 40,
     unit: '2lb',
-    description: "Milk Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Sữa tươi sô cô la thơm ngon, bổ dưỡng. Sản phẩm được làm từ sữa tươi chất lượng cao. Giàu canxi và protein, tốt cho sức khỏe. Vị ngọt vừa phải, không quá ngọt. Được đóng gói cẩn thận để giữ chất lượng.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -753,15 +753,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Zack",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "20 June, 2023",
@@ -780,7 +780,7 @@ const product_data: IProductData[] = [
   {
     id: 15,
     sku: "0015",
-    title: "Soda Sparkling Water Maker (Rose Gold)",
+    title: "Nước có ga Soda (Màu hồng vàng)",
     price: 65,
     sale_price: 55,
     image: {
@@ -794,7 +794,7 @@ const product_data: IProductData[] = [
     brand: "Vons",
     quantity: 40,
     unit: '1lb',
-    description: "Soda Sparkling Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Nước có ga Soda mát lạnh, sảng khoái. Sản phẩm có vị ngọt thanh, mát lạnh, thích hợp giải khát. Không chứa calo, phù hợp cho người ăn kiêng. Được đóng chai cẩn thận, đảm bảo chất lượng.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -805,15 +805,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Zack",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "20 June, 2023",
@@ -834,7 +834,7 @@ const product_data: IProductData[] = [
   {
     id: 16,
     sku: "0016",
-    title: "Banana, Beautiful Skin, Good For Health 1Kg",
+    title: "Chuối đẹp da, tốt cho sức khỏe 1Kg",
     price: 20,
     sale_price: 19,
     image: {
@@ -848,7 +848,7 @@ const product_data: IProductData[] = [
     brand: "Vons",
     quantity: 40,
     unit: '1kg',
-    description: "Strawberry Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Chuối tươi ngon, đẹp da, tốt cho sức khỏe. Chuối giàu kali, vitamin và chất xơ. Có tác dụng làm đẹp da, tốt cho hệ tiêu hóa. Sản phẩm được chọn lọc kỹ càng, đảm bảo chất lượng. Được đóng gói cẩn thận.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -859,15 +859,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Xyz",
-        comment: "Perfect",
+        comment: "Hoàn hảo",
         rating: 4.8,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "22 June, 2023",
@@ -886,7 +886,7 @@ const product_data: IProductData[] = [
   {
     id: 17,
     sku: "0017",
-    title: "Fresh Organic Dragon Fruit Vietnam Number-1",
+    title: "Thanh long hữu cơ tươi số 1 Việt Nam",
     price: 32,
     image: {
       id: 1,
@@ -904,7 +904,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-16.jpg",
       "/assets/img/product/new/product-img-16-thumb.jpg",
     ],
-    description: "Dragon Fruit Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Thanh long hữu cơ tươi ngon, chất lượng số 1 Việt Nam. Thanh long có vị ngọt thanh, mọng nước, giàu vitamin và chất xơ. Sản phẩm được trồng hữu cơ, không sử dụng hóa chất. Tốt cho sức khỏe và làm đẹp. Được đóng gói cẩn thận.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -915,15 +915,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Red" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Def",
-        comment: "Perfect",
+        comment: "Hoàn hảo",
         rating: 4.8,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "28 June, 2023",
@@ -942,7 +942,7 @@ const product_data: IProductData[] = [
   {
     id: 18,
     sku: "0018",
-    title: "Fresh Organic Lemon Leaves USA 5kg",
+    title: "Lá chanh hữu cơ tươi USA 5kg",
     price: 31,
     image: {
       id: 1,
@@ -960,7 +960,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-16.jpg",
       "/assets/img/product/new/product-img-16-thumb.jpg",
     ],
-    description: "Lime Fruit Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Lá chanh hữu cơ tươi ngon từ USA. Lá chanh có mùi thơm đặc trưng, thích hợp làm gia vị. Sản phẩm được trồng hữu cơ, đảm bảo an toàn. Có thể dùng để nấu ăn hoặc pha trà. Được đóng gói cẩn thận.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -971,15 +971,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Red" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Def",
-        comment: "Perfect",
+        comment: "Hoàn hảo",
         rating: 4.8,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "28 June, 2023",
@@ -998,7 +998,7 @@ const product_data: IProductData[] = [
   {
     id: 19,
     sku: "0019",
-    title: "Fresh Organic Mustard Leaves Quaker Popped",
+    title: "Lá cải hữu cơ tươi Quaker Popped",
     price: 54,
     image: {
       id: 1,
@@ -1016,7 +1016,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-18.jpg",
       "/assets/img/product/new/product-img-18-thumb.jpg",
     ],
-    description: "Apricot Fruit Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Lá cải hữu cơ tươi ngon, giòn mát. Rau được trồng theo phương pháp hữu cơ, không sử dụng hóa chất. Giàu vitamin và chất xơ, tốt cho sức khỏe. Thích hợp để nấu canh, xào hoặc làm salad. Được đóng gói cẩn thận.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1027,15 +1027,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Red" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Christ",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.9,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "28 June, 2023",
@@ -1055,7 +1055,7 @@ const product_data: IProductData[] = [
   {
     id: 20,
     sku: "0020",
-    title: "Quaker Popped Rice Crisps Snacks Chocolate",
+    title: "Snack Quaker Popped Rice Crisps sô cô la",
     price: 33,
     image: {
       id: 1,
@@ -1068,7 +1068,7 @@ const product_data: IProductData[] = [
     brand: "Ralphs",
     quantity: 53,
     unit: '5pc(s)',
-    description: "Rice Crisps Fruit Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Snack Quaker Popped Rice Crisps sô cô la giòn tan. Sản phẩm được làm từ gạo nguyên chất, vị sô cô la ngọt ngào. Không chứa chất bảo quản độc hại. Thích hợp làm món ăn vặt bổ dưỡng. Được đóng gói cẩn thận.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1079,15 +1079,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Black" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Ursula",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.9,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "28 June, 2023",
@@ -1106,7 +1106,7 @@ const product_data: IProductData[] = [
   {
     id: 21,
     sku: "0021",
-    title: "Laffy Taffy Laff Bites Gone Bananas – 4 Packs",
+    title: "Kẹo Laffy Taffy Laff Bites chuối – 4 Gói",
     price: 55,
     image: {
       id: 1,
@@ -1119,7 +1119,7 @@ const product_data: IProductData[] = [
     brand: "ShopRite",
     quantity: 55,
     unit: '5pc(s)',
-    description: "Laffy Taffy Fruit Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Kẹo Laffy Taffy Laff Bites vị chuối thơm ngon. Kẹo có vị ngọt thanh, dai mềm, thơm mùi chuối tự nhiên. Sản phẩm không chứa chất bảo quản độc hại. Thích hợp cho trẻ em và người lớn. Được đóng gói cẩn thận.",
     videoId: null,
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1130,15 +1130,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Black" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Ursula",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.9,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "28 June, 2023",
@@ -1158,7 +1158,7 @@ const product_data: IProductData[] = [
   {
     id: 22,
     sku: "0022",
-    title: "USDA Choice Angus Beef Stew Meat – 1Kg",
+    title: "Thịt bò Angus hầm chất lượng cao USDA – 1Kg",
     price: 120,
     sale_price: 100,
     image: {
@@ -1172,7 +1172,7 @@ const product_data: IProductData[] = [
     brand: "ShopRite",
     quantity: 55,
     unit: '2Kg',
-    description: "Beef Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Thịt bò Angus chất lượng cao từ USDA. Thịt tươi ngon, mềm, giàu protein và chất dinh dưỡng. Phù hợp để hầm, nấu súp hoặc các món ăn khác. Được đóng gói và bảo quản cẩn thận. Đảm bảo an toàn vệ sinh thực phẩm.",
     videoId: 'https://www.youtube.com/watch?v=QhBjJBQ4pgo',
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1183,15 +1183,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Black" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Ursula",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.9,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "28 June, 2023",
@@ -1210,7 +1210,7 @@ const product_data: IProductData[] = [
   {
     id: 23,
     sku: "0023",
-    title: "Cheap And Delicious Fresh Chicken",
+    title: "Gà tươi ngon, giá tốt",
     price: 150,
     sale_price: 120,
     image: {
@@ -1229,7 +1229,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-22.jpg",
       "/assets/img/product/new/product-img-22-thumb.jpg",
     ],
-    description: "Chicken is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Gà tươi ngon, chất lượng cao. Thịt gà mềm, thơm, giàu protein. Sản phẩm được chọn lọc kỹ càng, đảm bảo an toàn vệ sinh. Phù hợp để nấu nhiều món ăn ngon. Được đóng gói và bảo quản cẩn thận.",
     videoId: 'https://www.youtube.com/watch?v=QhBjJBQ4pgo',
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1240,15 +1240,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Black" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Iris",
-        comment: "Medium",
+        comment: "Khá tốt",
         rating: 3.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "14 June, 2023",
@@ -1267,7 +1267,7 @@ const product_data: IProductData[] = [
   {
     id: 24,
     sku: "0024",
-    title: "1st Quality Fresh Meat From USA 500g",
+    title: "Thịt tươi chất lượng số 1 từ USA 500g",
     price: 80,
     sale_price: 70,
     image: {
@@ -1286,7 +1286,7 @@ const product_data: IProductData[] = [
       "/assets/img/product/new/product-img-23.jpg",
       "/assets/img/product/new/product-img-23-thumb.jpg",
     ],
-    description: "Meat is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Thịt tươi chất lượng số 1 từ USA. Thịt mềm, thơm, giàu protein và chất dinh dưỡng. Sản phẩm được kiểm định chất lượng nghiêm ngặt. Phù hợp để nấu nhiều món ăn ngon. Được đóng gói và bảo quản cẩn thận.",
     videoId: 'https://www.youtube.com/watch?v=QhBjJBQ4pgo',
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1297,15 +1297,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Red" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Iris",
-        comment: "Medium",
+        comment: "Khá tốt",
         rating: 3.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "7 June, 2023",
@@ -1325,7 +1325,7 @@ const product_data: IProductData[] = [
   {
     id: 25,
     sku: "0025",
-    title: "Fresh Milk Chocolate Quaker Popped Rice Crisps",
+    title: "Sữa tươi sô cô la Quaker Popped Rice Crisps",
     price: 19,
     image: {
       id: 1,
@@ -1343,7 +1343,7 @@ const product_data: IProductData[] = [
     ],
     quantity: 40,
     unit: '2lb',
-    description: "Milk Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    description: "Sữa tươi sô cô la thơm ngon, bổ dưỡng. Sản phẩm được làm từ sữa tươi chất lượng cao. Giàu canxi và protein, tốt cho sức khỏe. Vị ngọt vừa phải, không quá ngọt. Được đóng gói cẩn thận để giữ chất lượng.",
     videoId: "rLrV5Tel7zw",
     additionalInfo: [
       { key: "Material", value: "Plastic, Wood" },
@@ -1354,15 +1354,15 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     productInfoList: [
-      'Delicious non - dairy cheese sauce',
-      'Vegan & Allergy friendly',
-      'Smooth, velvety dairy free cheese sauce'
+      'Sản phẩm tươi ngon, chất lượng cao',
+      'An toàn cho người ăn chay và dị ứng',
+      'Đóng gói cẩn thận, bảo quản tốt'
     ],
     reviews: [
       {
         id: 1,
         name: "Zack",
-        comment: "Good",
+        comment: "Tốt",
         rating: 4.5,
         user: "/assets/img/testimonial/test-avata-1.png",
         date: "20 June, 2023",

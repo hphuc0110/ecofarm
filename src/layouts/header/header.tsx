@@ -7,7 +7,6 @@ import Menus from './menus';
 import logo from '@/assets/img/logo/logo.png';
 import cart_icon from '@/assets/img/icon/cart-1.svg';
 import useSticky from '@/hooks/use-sticky';
-import HeaderTop from './header-top';
 import SearchPopup from '@/components/common/modal/search-popup';
 import CartSidebar from '@/components/sidebar/cart-sidebar';
 import useCartInfo from '@/hooks/use-cart-info';
@@ -22,8 +21,6 @@ const Header = () => {
   return (
     <>
      <header>
-         {/* header top start */}
-         <HeaderTop/>
          {/* header top end */}
          <div id="header-sticky" className={`header__main-area d-none d-xl-block ${sticky ? 'header-sticky' : ''}`}>
             <div className="container">
@@ -32,7 +29,7 @@ const Header = () => {
                      <div className="col-xl-3">
                         <div className="header__logo">
                            <Link href="/">
-                              <Image src={logo} alt="logo" style={{height: 'auto'}}/>
+                              <Image src={logo} alt="logo" style={{height: '120px', width: '120px'}}/>
                            </Link>
                         </div>
                      </div>

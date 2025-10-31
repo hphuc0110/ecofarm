@@ -14,7 +14,7 @@ const PriceFilter = () => {
   };
   return (
     <div className="tpshop__widget mb-30 pb-25">
-      <h4 className="tpshop__widget-title mb-20">FILTER BY PRICE</h4>
+      <h4 className="tpshop__widget-title mb-20">LỌC THEO GIÁ</h4>
       <div className="productsidebar">
         <div className="productsidebar__head"></div>
         <div className="productsidebar__range">
@@ -33,7 +33,7 @@ const PriceFilter = () => {
         </div>
       </div>
       <div className="productsidebar__btn mt-15 mb-15">
-        <a href="#">FILTER</a>
+        <a href="#">LỌC</a>
       </div>
     </div>
   );

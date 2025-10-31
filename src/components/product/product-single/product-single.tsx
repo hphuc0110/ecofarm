@@ -164,9 +164,9 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
         </div>
         <div className="tpproduct__descrip">
           <ul>
-            <li>Category: Organic</li>
-            <li>MFG: August 4.2021</li>
-            <li>LIFE: 60 days</li>
+            <li>Danh mục: Hữu cơ</li>
+            <li>Ngày sản xuất: 29/10/2025</li>
+            <li>Hạn sử dụng: 30 ngày</li>
           </ul>
         </div>
       </div>

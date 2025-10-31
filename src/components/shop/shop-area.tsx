@@ -50,12 +50,12 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
                   style={{backgroundImage: "url(/assets/img/banner/shop-bg-1.jpg)"}}
                 >
                   <div className="tpshop__content text-center">
-                    <span>The Salad</span>
+                    <span>Salad</span>
                     <h4 className="tpshop__content-title mb-20">
-                      Fresh & Natural <br />
-                      Healthy Food Special Offer
+                      Thực phẩm tươi & Tự nhiên <br />
+                      Khuyến mãi đặc biệt thực phẩm lành mạnh
                     </h4>
-                    <p>Do not miss the current offers of us!</p>
+                    <p>Đừng bỏ lỡ các ưu đãi hiện tại của chúng tôi!</p>
                   </div>
                 </div>
               )}
@@ -69,8 +69,8 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
                   <div className="col-sm-4">
                     <div className="product__item-count">
                       <span>
-                        Showing 1 - {currentItems.length} of {products.length}{" "}
-                        Products
+                        Hiển thị 1 - {currentItems.length} trong tổng số {products.length}{" "}
+                        Sản phẩm
                       </span>
                     </div>
                   </div>
@@ -98,14 +98,14 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
                       <div className="tp-shop-selector">
                         <NiceSelect
                           options={[
-                            { value: "", label: "Default sorting" },
-                            { value: "new", label: "New Arrivals" },
-                            { value: "high", label: "Price High To Low" },
-                            { value: "low", label: "Price Low To High" },
+                            { value: "", label: "Sắp xếp mặc định" },
+                            { value: "new", label: "Hàng mới về" },
+                            { value: "high", label: "Giá cao đến thấp" },
+                            { value: "low", label: "Giá thấp đến cao" },
                           ]}
                           defaultCurrent={0}
                           onChange={(item) => handleSorting(item)}
-                          name="Sorting"
+                          name="Sắp xếp"
                         />
                       </div>
                     </div>

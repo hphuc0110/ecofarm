@@ -10,7 +10,7 @@ const RatingFilter = () => {
   const {ratingValue} = useAppSelector((state) => state.filter);
   return (
     <div className="tpshop__widget pb-25">
-      <h4 className="tpshop__widget-title">FILTER BY RATING</h4>
+      <h4 className="tpshop__widget-title">LỌC THEO ĐÁNH GIÁ</h4>
       {ratings.map((r) => (
         <div className="form-check" key={r}>
           <input
@@ -25,7 +25,7 @@ const RatingFilter = () => {
             htmlFor={`rating-check-${r}`}
           >
             <Rating allowFraction size={16} initialValue={r} readonly={true} />
-            {" "} ({r} Star)
+            {" "} ({r} Sao)
           </label>
         </div>
       ))}

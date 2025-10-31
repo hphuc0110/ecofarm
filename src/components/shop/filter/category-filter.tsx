@@ -20,7 +20,7 @@ const CategoryFilter = () => {
 
   return (
     <div className="tpshop__widget mb-30 pb-25">
-      <h4 className="tpshop__widget-title">Product Categories</h4>
+      <h4 className="tpshop__widget-title">Danh mục sản phẩm</h4>
       {categories.map((category,i) => (
         <div key={category.id} className="form-check">
           <input
