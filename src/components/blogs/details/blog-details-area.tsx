@@ -42,7 +42,7 @@ const BlogDetailsArea = ({blog}: IProps) => {
                       Thực phẩm tươi ngon được sắp xếp cẩn thận trên kệ, tạo nên một không gian bếp hiện đại và tiện nghi. Đối với chúng tôi, phần quan trọng nhất của việc cải thiện cuộc sống là chia sẻ những kiến thức về dinh dưỡng và sức khỏe. Hãy theo dõi chúng tôi để nhận được những thông tin hữu ích về thực phẩm và lối sống lành mạnh.
                    </p>
                    <div className="tp-blog-details__quation pt-15 pb-40 text-center">
-                      <i>"  Đĩa ở đáy bát có thể được xoay ngược chiều kim đồng hồ để <br/> thoát nước khi rửa rau củ và có thể được xoay lại.  " </i>
+                      <i>  Đĩa ở đáy bát có thể được xoay ngược chiều kim đồng hồ để <br/> thoát nước khi rửa rau củ và có thể được xoay lại. </i>
                    </div>
                    <p>
                       Thực phẩm hữu cơ mang đến một cảm giác tươi mới và tự nhiên. Với thiết kế đơn giản và hiện đại, sản phẩm của chúng tôi có vẻ ngoài mềm mại và thân thiện, mang lại cảm giác gần gũi như từ vườn nhà. Mỗi sản phẩm đều được chọn lọc kỹ càng, đảm bảo chất lượng cao nhất. Chúng tôi cam kết mang đến cho bạn những sản phẩm tươi ngon nhất từ trang trại đến bàn ăn. 

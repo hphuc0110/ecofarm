@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Wrapper from "@/layouts/wrapper";
-import HeaderTwo from "@/layouts/header/header-2";
 import HeroBannerThree from "@/components/hero-banner/hero-banner-3";
 import FeatureAreaTwo from "@/components/feature/feature-area-2";
 import DiscountProducts from "@/components/product/home-3/discount-products";
@@ -23,7 +22,6 @@ export default function HomePageTwo() {
   return (
     <Wrapper>
       {/* header start */}
-      <HeaderTwo />
       {/* header end */}
 
       <main>

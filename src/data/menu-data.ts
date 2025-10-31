@@ -36,6 +36,7 @@ export const mobile_menus = [
     name:'Cửa hàng',
     link:'/shop',
     has_dropdown:false,
+    
   },
   {
     id:2,
