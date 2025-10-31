@@ -276,10 +276,11 @@ const CheckoutArea = () => {
                               </td>
                               <td className="product-total">
                                 <span className="amount">
-                                  $
+                                  
                                   {product.sale_price
-                                    ? product.sale_price.toFixed(2)
-                                    : product.price.toFixed(2)}
+                                    ? product.sale_price.toFixed(0)
+                                    : product.price.toFixed(0)}
+                                    đ
                                 </span>
                               </td>
                             </tr>
@@ -289,49 +290,19 @@ const CheckoutArea = () => {
                         <tr className="cart-subtotal">
                           <th>Tạm tính</th>
                           <td>
-                            <span className="amount">${total.toFixed(2)}</span>
+                            <span className="amount"> {total.toFixed(0)} đ</span>
                           </td>
                         </tr>
-                        <tr className="shipping">
-                          <th>Vận chuyển</th>
-                          <td>
-                            <ul>
-                              <li>
-                                <input
-                                  onChange={() => setShipCost(7.0)}
-                                  checked={shipCost === 7.0}
-                                  type="radio"
-                                  id="shipping"
-                                  name="shipping"
-                                />
-                                <label htmlFor="shipping">
-                                  Giá cố định:{" "}
-                                  <span className="amount">$7.00</span>
-                                </label>
-                              </li>
-                              <li>
-                                <input
-                                  id="free-shipping"
-                                  onChange={() => setShipCost("free")}
-                                  type="radio"
-                                  name="shipping"
-                                />
-                                <label htmlFor="free-shipping">
-                                  Miễn phí vận chuyển:
-                                </label>
-                              </li>
-                            </ul>
-                          </td>
-                        </tr>
+
                         <tr className="order-total">
                           <th>Tổng cộng</th>
                           <td>
                             <strong>
                               <span className="amount">
-                                $
+                                
                                 {typeof shipCost === "number"
-                                  ? (total + shipCost).toFixed(2)
-                                  : total.toFixed(2)}
+                                  ? (total ).toFixed(0)
+                                  : total.toFixed(0)} đ
                               </span>
                             </strong>
                           </td>

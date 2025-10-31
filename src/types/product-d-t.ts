@@ -16,7 +16,6 @@ export interface IProductData {
   image: {
     id: number;
     original: string;
-    thumbnail?: string;
   };
   category: {
     parent: string;

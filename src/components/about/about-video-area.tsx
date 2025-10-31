@@ -89,11 +89,11 @@ const AboutVideoArea = () => {
         </div>
       </section>
 
-      {/* <VideoPopup
+      <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"Vgte7oCgNtU"}
-      /> */}
+        videoId={"BK0v6-NH-dM"}
+      />
     </>
   );
 };

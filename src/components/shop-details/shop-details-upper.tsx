@@ -17,7 +17,7 @@ const ShopDetailsUpper = ({ product, navStyle, topThumb }: IProps) => {
         <h3 className="tpdetails__title">{product.title}</h3>
         <ul className="tpdetails__brand">
           <li>
-            Brands: <a href="#">{product.brand}</a>
+            Thương hiệu: <a href="#">{product.brand}</a>
           </li>
           <li>
             <i className="icon-star_outline1"></i>
@@ -25,7 +25,7 @@ const ShopDetailsUpper = ({ product, navStyle, topThumb }: IProps) => {
             <i className="icon-star_outline1"></i>
             <i className="icon-star_outline1"></i>
             <i className="icon-star_outline1"></i>
-            <b>{product.reviews.length} Reviews</b>
+            <b>{product.reviews.length} Đánh giá</b>
           </li>
           <li>
             SKU: <span>{product.sku}</span>

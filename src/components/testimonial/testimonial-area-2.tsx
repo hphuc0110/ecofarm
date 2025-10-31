@@ -47,39 +47,24 @@ export const slider_setting = {
 export const testimonial_data = [
   {
     id: 1,
-    user: "/assets/img/testimonial/test-avata-1.png",
-    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
-    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
-    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
-    name: "Algistino Lionel",
-    position: "Nhà thiết kế Web",
+    user: "/assets/img/testimonial/ly-quoc-binh.webp",
+    desc: `"Ban đầu tôi khá tò mò về Blind Box rau 50K của Eco Farm Hải Dương, không biết bên trong có gì. Ai dè lần nào cũng bất ngờ! Có hôm tôi nhận được cả măng tây, hôm khác lại là bắp cải tím với cà chua bi, giá trị luôn cao hơn 50K rất nhiều. Rau củ thì khỏi phải bàn, tươi roi rói như vừa hái ở vườn. Cái cảm giác mỗi sáng 'đập hộp' để xem hôm nay mình sẽ nấu gì thú vị lắm. Đây đúng là một trải nghiệm độc đáo và tiết kiệm mà tôi rất thích, giờ cứ 9h sáng là tôi lại canh để săn box."`,
+    name: " Anh Trần Văn Hùng",
+    position: "Freelancer Designer",
   },
   {
     id: 2,
-    user: "/assets/img/testimonial/test-avata-2.png",
-    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
-    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
-    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
-    name: "Jackson Roben",
-    position: "Lập trình viên Web",
+    user: "/assets/img/testimonial/le-minh-hanh.webp",
+    desc: `"Trước đây mỗi chiều tan làm, tôi lại đau đầu nghĩ xem tối nay ăn gì và phải tranh thủ ghé siêu thị. Từ ngày đăng ký gói An Tâm 500 của Eco Farm Hải Dương, mọi thứ trở nên nhẹ nhàng hơn rất nhiều. Sáng thứ Hai là có ngay một thùng rau tươi rói giao đến tận cửa, đủ loại rau ăn lá, rau củ cho cả tuần. Rau lúc nào cũng tươi ngon, sạch sẽ, có mã QR truy xuất nguồn gốc rõ ràng nên tôi rất yên tâm khi chế biến cho cả gia đình, đặc biệt là các con nhỏ. Đúng là giải pháp hoàn hảo cho mẹ bận rộn!"`,
+    name: "Chị Nguyễn Thị Mai Linh",
+    position: "Trưởng phòng Marketing",
   },
   {
     id: 3,
-    user: "/assets/img/testimonial/test-avata-3.png",
-    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
-    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
-    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
-    name: "Lionel",
-    position: "Nhà thiết kế UI/UX",
-  },
-  {
-    id: 4,
-    user: "/assets/img/testimonial/test-avata-2.png",
-    desc: `"Tôi cũng rất thích việc có thể chọn các mặt hàng thiết yếu của mình trong <br>
-    những túi giấy nâu và hộp thủy tinh tại khu vực không rác thải, với <br>
-    ý tưởng giảm thiểu nhựa và cũng tiện lợi hơn."`,
-    name: "Mark Roben",
-    position: "Lập trình viên Ứng dụng",
+    user: "/assets/img/testimonial/thu-hang.jpg",
+    desc: `"Mấy tháng nay tôi cảm thấy cơ thể hơi trì trệ và muốn tìm cách thanh lọc nhẹ nhàng. Thấy Eco Farm Hải Dương có chương trình Detox mua 5 tặng 2, tôi rủ thêm cô bạn thân mua chung để thử. Nước ép ở đây rất tươi, vị tự nhiên và không hề có cảm giác pha chế. Sau 5 ngày uống liên tục, tôi thấy da sáng hơn, cơ thể nhẹ nhàng và đặc biệt là ngủ ngon hơn rất nhiều. Dịch vụ tư vấn cũng rất nhiệt tình, giải đáp mọi thắc mắc của chúng tôi. Chắc chắn tôi sẽ quay lại và giới thiệu cho bạn bè nữa!"`,
+    name: "Chị Lê Thị Thùy Dung",
+    position: " Chủ cửa hàng thời trang",
   },
 ];
 

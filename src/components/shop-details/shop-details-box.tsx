@@ -107,7 +107,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
           <div className="col-lg-6">
             <div className="product__details product__sticky">
               <div className="product__details-price-box">
-                <h5 className="product__details-price">${price.toFixed(2)}</h5>
+                <h5 className="product__details-price">{formatPriceVND(price)}</h5>
                 {productInfoList && (
                   <ul className="product__details-info-list">
                     {productInfoList.map((item, index) => (
@@ -117,7 +117,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                 )}
               </div>
               <div className="product__color-switch mb-25">
-                <h4 className="product__color-title">Color: Select a color</h4>
+                <h4 className="product__color-title">Màu sắc: Chọn màu</h4>
                 <div className="tpshop__widget-color-box d-flex align-items-center">
                   {color &&
                     color.map((clr, i) => (
@@ -138,7 +138,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
               </div>
               <div className="product__details-cart">
                 <div className="product__details-quantity d-flex align-items-center mb-15">
-                  <b>Qty:</b>
+                  <b>Số lượng:</b>
                   <div className="product__details-count mr-10">
                     <span className="cart-minus" onClick={() => dispatch(decrement())}>
                       <i className="far fa-minus"></i>
@@ -160,17 +160,17 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                 <ul className="product__details-check">
                   <li>
                     <a href="#">
-                      <i className="icon-heart icons"></i> add to wishlist
+                      <i className="icon-heart icons"></i> thêm vào yêu thích
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="icon-layers"></i> Add to Compare
+                      <i className="icon-layers"></i> Thêm vào so sánh
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="icon-share-2"></i> Share
+                      <i className="icon-share-2"></i> Chia sẻ
                     </a>
                   </li>
                 </ul>
@@ -178,13 +178,13 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
               <div className="product__details-stock mb-25">
                 <ul>
                   <li>
-                    Availability: <i>{quantity} In stock</i>
+                    Tình trạng: <i>{quantity} Còn hàng</i>
                   </li>
                   <li>
-                    Categories: <span>{category.parent}</span>
+                    Danh mục: <span>{category.parent}</span>
                   </li>
                   <li>
-                    Tags: <span>{tags.join(", ")}</span>
+                    Thẻ: <span>{tags.join(", ")}</span>
                   </li>
                 </ul>
               </div>
@@ -196,7 +196,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                   height={26}
                   style={{ height: "auto" }}
                 />
-                <span>Guarantee safe & Secure checkout</span>
+                <span>Đảm bảo thanh toán an toàn & bảo mật</span>
               </div>
             </div>
           </div>

@@ -48,9 +48,6 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                               <h4 className="tpfeature__product-title">Thời gian sử dụng:</h4>
                               <span className="tpfeature__product-info">1 tháng</span>
                             </div>
-                            <div className="tpfeature__btn">
-                              <Link className="tp-btn-4" href="/shop">Xem thêm</Link>
-                            </div>
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">

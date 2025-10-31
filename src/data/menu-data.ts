@@ -19,12 +19,6 @@ const menu_data:IMenuData[] = [
     link:'/about',
     has_dropdown:false,
   },
-  {
-    id:4,
-    name:'Liên hệ',
-    link:'/contact',
-    has_dropdown:false,
-  },
 ]
 
 export default menu_data;
@@ -36,7 +30,7 @@ export const mobile_menus = [
     name:'Cửa hàng',
     link:'/shop',
     has_dropdown:false,
-    
+
   },
   {
     id:2,
@@ -48,12 +42,6 @@ export const mobile_menus = [
     id:3,
     name:'Về chúng tôi',
     link:'/about',
-    has_dropdown:false,
-  },
-  {
-    id:4,
-    name:'Liên hệ',
-    link:'/contact',
     has_dropdown:false,
   },
 ]

@@ -1,47 +1,110 @@
 import { IProductData } from "@/types/product-d-t";
 
-// Danh sách ảnh có sẵn để luân phiên sử dụng cho sản phẩm hết hàng
-const outOfStockImages = [
+// Danh sách tên các loại rau hết hàng
+const outOfStockVegetableNames = [
+  "Cải thảo",
+  "Cải ngồng",
+  "Cải xanh",
+  "Rau dền",
+  "Rau muống",
+  "Rau đay",
+  "Rau mồng tơi",
+  "Rau diếp cá",
+  "Rau kinh giới",
+  "Rau tía tô",
+  "Rau mùi",
+  "Rau húng quế",
+  "Rau bạc hà",
+  "Rau mùi tây",
+  "Bông cải xanh",
+  "Bông cải trắng",
+  "Măng tây",
+  "Atiso",
+  "Bắp cải",
+  "Rau cần tây",
+  "Rau bina",
+  "Cà rốt",
+  "Khoai tây",
+  "Khoai lang",
+  "Bí đao",
+];
+
+const outOfStockVegetableImages = [
   {
-    original: "/assets/img/product/new/product-img-1.jpg",
-    thumbnail: "/assets/img/product/new/product-img-1-thumb.jpg",
+    original: "/assets/img/product/new/cai-thao.jpg", // Cải thảo - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-2.jpg",
-    thumbnail: "/assets/img/product/new/product-img-2-thumb.jpg",
+    original: "/assets/img/product/new/rau-ngong.webp", // Cải ngồng - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-3.jpg",
-    thumbnail: "/assets/img/product/new/product-img-3-thumb.jpg",
+    original: "/assets/img/product/new/cai-xanh.jpg", // Cải xanh - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-4.jpg",
-    thumbnail: "/assets/img/product/new/product-img-4-thumb.jpg",
+    original: "/assets/img/product/new/rau-den.jpg", // Rau dền - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-5.jpg",
-    thumbnail: "/assets/img/product/new/product-img-5-thumb.jpg",
+    original: "/assets/img/product/new/rau-muong.png", // Rau muống - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-6.jpg",
-    thumbnail: "/assets/img/product/new/product-img-6-thumb.jpg",
+    original: "/assets/img/product/new/rau-day.webp", // Rau đay - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-7.jpg",
-    thumbnail: "/assets/img/product/new/product-img-7-thumb.jpg",
+    original: "/assets/img/product/new/rau-mong-toi.webp", // Rau mồng tơi - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-8.jpg",
-    thumbnail: "/assets/img/product/new/product-img-8-thumb.jpg",
+    original: "/assets/img/product/new/rau-diep-ca.webp", // Rau diếp cá - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-9.jpg",
-    thumbnail: "/assets/img/product/new/product-img-9-thumb.jpg",
+    original: "/assets/img/product/new/rau-kinh-gioi.png", // Rau kinh giới - Cập nhật ảnh tại đây
   },
   {
-    original: "/assets/img/product/new/product-img-10.jpg",
-    thumbnail: "/assets/img/product/new/product-img-10-thumb.jpg",
-  }
+    original: "/assets/img/product/new/tiato.jpg", // Rau tía tô - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/raumui.jpg", // Rau mùi - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/rau-hung-que.jpg", // Rau húng quế - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/rau-bac-ha.jpg", // Rau bạc hà - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/rau-mui-tay.jpg", // Rau mùi tây - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/bong-cai-xanh.jpg", // Bông cải xanh - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/bong-cai-trang.jpg", // Bông cải trắng - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/mang-tay.jpg", // Măng tây - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/atiso.jpg", // Atiso - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/bap-cai.jpg", // Bắp cải - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/rau-can-tay.jpg", // Rau cần tây - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/rau-bina.jpg", // Rau bina - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/ca-rot.jpg", // Cà rốt - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/khoai-tay.jpg", // Khoai tây - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/khoai-lang.jpg", // Khoai lang - Cập nhật ảnh tại đây
+  },
+  {
+    original: "/assets/img/product/new/bi-dao.png", // Bí đao - Cập nhật ảnh tại đây
+  },
 ];
 
 const product_data: IProductData[] = [
@@ -50,11 +113,10 @@ const product_data: IProductData[] = [
     id: 1,
     sku: "001",
     title: "Hành tím/ Hành tây/ Hành khô Kinh men 1kg",
-    price: 20000,
+    price: 18000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-1.jpg",
-      thumbnail: "/assets/img/product/new/product-img-1-thumb.jpg",
     },
     category: {
       parent: 'Vegetables',
@@ -118,7 +180,7 @@ const product_data: IProductData[] = [
     id: 2,
     sku: "002",
     title: "Chanh tươi chua ngọt tự nhiên",
-    price: 20000,
+    price: 25000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-2.jpg",
@@ -169,11 +231,10 @@ const product_data: IProductData[] = [
     id: 3,
     sku: "003",
     title: "Su su hữu cơ tươi ngon, bổ dưỡng",
-    price: 20000,
+    price: 22000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-3.jpg",
-      thumbnail: "/assets/img/product/new/product-img-3-thumb.jpg",
     },
     category: {
       parent: 'Vegetables',
@@ -226,7 +287,7 @@ const product_data: IProductData[] = [
     id: 4,
     sku: "004",
     title: "Gừng tươi nguyên củ hữu cơ – 250gram",
-    price: 20000,
+    price: 15000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-4.jpg",
@@ -277,11 +338,10 @@ const product_data: IProductData[] = [
     id: 5,
     sku: "005",
     title: "Ổi tươi từ vườn miền Nam",
-    price: 20000,
+    price: 28000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-5.jpg",
-      thumbnail: "/assets/img/product/new/product-img-5-thumb.jpg",
     },
     category: {
       parent: 'Vegetables',
@@ -337,11 +397,10 @@ const product_data: IProductData[] = [
     id: 6,
     sku: "006",
     title: "Xúp lơ tươi sạch",
-    price: 20000,
+    price: 24000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-6.jpg",
-      thumbnail: "/assets/img/product/new/product-img-6-thumb.jpg",
     },
     category: {
       parent: 'Vegetables',
@@ -393,11 +452,10 @@ const product_data: IProductData[] = [
     id: 7,
     sku: "007",
     title: "Vải thiều tươi ngon đặc sản Việt Nam",
-    price: 20000,
+    price: 32000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-7.jpg",
-      thumbnail: "/assets/img/product/new/product-img-7-thumb.jpg",
     },
     category: {
       parent: 'Vegetables',
@@ -555,7 +613,6 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-10.jpg",
-      thumbnail: "/assets/img/product/new/product-img-10-thumb.jpg",
     },
     category: {
       parent: 'Fresh Fruits',
@@ -657,8 +714,8 @@ const product_data: IProductData[] = [
   {
     id: 13,
     sku: "0013",
-    title: "Snack chuối hữu cơ ngọt ngào",
-    price: 20000,
+    title: "Chuối hữu cơ ngọt ngào",
+    price: 26000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-12.jpg"
@@ -712,8 +769,8 @@ const product_data: IProductData[] = [
   {
     id: 16,
     sku: "0016",
-    title: "Chuối đẹp da, tốt cho sức khỏe 1Kg",
-    price: 20000,
+    title: "Dâu tây đẹp da, tốt cho sức khỏe 1Kg",
+    price: 120000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-15.jpg"
@@ -764,11 +821,10 @@ const product_data: IProductData[] = [
     id: 17,
     sku: "0017",
     title: "Thanh long hữu cơ tươi số 1 Việt Nam",
-    price: 20000,
+    price: 32000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-16.jpg",
-      thumbnail: "/assets/img/product/new/product-img-16-thumb.jpg",
     },
     category: {
       parent: 'Fresh Bakery',
@@ -820,11 +876,10 @@ const product_data: IProductData[] = [
     id: 18,
     sku: "0018",
     title: "Lá chanh hữu cơ tươi USA 5kg",
-    price: 20000,
+    price: 11000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-17.jpg",
-      thumbnail: "/assets/img/product/new/product-img-17-thumb.jpg",
     },
     category: {
       parent: 'Fresh Bakery',
@@ -876,11 +931,10 @@ const product_data: IProductData[] = [
     id: 19,
     sku: "0019",
     title: "Lá cải hữu cơ tươi Quaker Popped",
-    price: 20000,
+    price: 15000,
     image: {
       id: 1,
       original: "/assets/img/product/new/product-img-18.jpg",
-      thumbnail: "/assets/img/product/new/product-img-18-thumb.jpg",
     },
     category: {
       parent: 'Fresh Bakery',
@@ -932,31 +986,34 @@ const product_data: IProductData[] = [
   // 40 more vegetables (hết hàng, không hiển thị giá)
   ...Array.from({ length: 40 }, (_, idx) => {
     const id = 100 + idx;
-    // Chọn ảnh luân phiên từ danh sách ảnh có sẵn
-    const imageIdx = idx % outOfStockImages.length;
-    const imageObj = outOfStockImages[imageIdx];
+    // Chọn tên rau và ảnh tương ứng từ danh sách (lặp lại nếu cần)
+    const vegetableIdx = idx % outOfStockVegetableNames.length;
+    const vegetableName = outOfStockVegetableNames[vegetableIdx];
+    const vegetableNameWithSuffix = idx < outOfStockVegetableNames.length 
+      ? vegetableName 
+      : `${vegetableName} (${Math.floor(idx / outOfStockVegetableNames.length) + 1})`;
+    // Lấy ảnh tương ứng với tên rau
+    const imageObj = outOfStockVegetableImages[vegetableIdx];
     return {
       id,
       sku: `VRAU${100 + idx}`,
-      title: `Rau hữu cơ ${idx + 1} (Hết hàng)`,
+      title: `${vegetableNameWithSuffix} (Hết hàng)`,
       price: 0, // Price hidden via hidePrice flag
       image: {
         id: idx + 100,
         original: imageObj.original,
-        thumbnail: imageObj.thumbnail,
       },
       category: {
         parent: 'Vegetables',
-        child: `Rau loại ${idx + 1}`,
+        child: vegetableName,
       },
       brand: "Super Market",
       quantity: 0,
       unit: "1kg",
       gallery: [
         imageObj.original,
-        imageObj.thumbnail,
       ],
-      description: `Rau hữu cơ loại ${idx + 1} hết hàng. Chúng tôi sẽ bổ sung sớm nhất!`,
+      description: `${vegetableNameWithSuffix} hết hàng. Chúng tôi sẽ bổ sung sớm nhất!`,
       videoId: null,
       additionalInfo: [
         { key: "Xuất xứ", value: "Việt Nam" },
@@ -970,7 +1027,7 @@ const product_data: IProductData[] = [
       reviews: [],
       tags: [
         "Vegetable",
-        `Rau ${idx + 1}`,
+        vegetableName,
         "Hết hàng",
       ],
       color: ["Green"],

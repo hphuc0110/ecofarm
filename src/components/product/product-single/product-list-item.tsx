@@ -53,17 +53,7 @@ const ProductListItem = ({ product }: IProps) => {
             style={imgStyle}
           />
         </Link>
-        {image.thumbnail && (
-          <Link href={`/shop-details/${product.id}`} className="tplist__product-img-two">
-            <Image
-              src={image.thumbnail}
-              alt="product-img"
-              width={222}
-              height={221}
-              style={imgStyle}
-            />
-          </Link>
-        )}
+       
         <div className="tpproduct__info bage">
           {discount > 0 && (
             <span className="tpproduct__info-discount bage__discount">

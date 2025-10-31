@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import payment from "@/assets/img/shape/footer-payment.png";
 import social_links from "@/data/social-data";
 
 // prop type
@@ -123,19 +122,11 @@ const Footer = ({ style_2 = false }: IProps) => {
               <div className="col-lg-6 col-md-7 col-sm-12">
                 <div className="tpfooter__copyright">
                   <span className="tpfooter__copyright-text">
-                    Bản quyền © <a href="#">Ecofam</a> bảo lưu mọi quyền. Cung
-                    cấp bởi <a href="#">ThemePure</a>.
+                    Bản quyền © <a href="#">Ecofam</a> bảo lưu mọi quyền.
                   </span>
                 </div>
               </div>
               <div className="col-lg-6 col-md-5 col-sm-12">
-                <div className="tpfooter__copyright-thumb text-end">
-                  <Image
-                    src={payment}
-                    alt="payment"
-                    style={{ height: "auto" }}
-                  />
-                </div>
               </div>
             </div>
           </div>

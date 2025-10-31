@@ -55,7 +55,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
 
   return (
     <div
-      className={`tpproduct p-relative ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
+      className={`tpproduct p-relative  ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
     >
       <div className="tpproduct__thumb p-relative text-center">
         <Link href={`/shop-details/${product.id}`}>
@@ -67,17 +67,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
             style={imgStyle}
           />
         </Link>
-        {image.thumbnail && (
-          <Link href={`/shop-details/${product.id}`} className="tpproduct__thumb-img">
-            <Image
-              src={image.thumbnail}
-              alt="product-img"
-              width={217}
-              height={217}
-              style={imgStyle}
-            />
-          </Link>
-        )}
+       
         <div className="tpproduct__info bage">
           {discount > 0 && (
             <span className="tpproduct__info-discount bage__discount">
